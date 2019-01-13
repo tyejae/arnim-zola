@@ -1,2 +1,2 @@
-# msfgg-bot
-MSF.gg bot controls and raid organizer
+# arnim-zola
+HYDRA Raid Organizer
