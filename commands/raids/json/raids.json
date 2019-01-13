@@ -1,0 +1,94 @@
+{
+    "DEADPOOL": {
+        "name": "Deadpool",
+        "alias": "d",
+        "color": 12189696,
+        "thumbnailUrl": "https://imgur.com/DrT9Skg.png",
+        "url": "https://msf.gg/raids/raid_deadpool_lvl_65",
+        "laneImages": [
+            "https://imgur.com/U1tzML1.png",
+            "https://imgur.com/4f5fOcO.png",
+            "https://imgur.com/QR7g9iq.png",
+            "https://imgur.com/T3XsSMI.png",
+            "https://imgur.com/Go0uPgd.png",
+            "https://imgur.com/iwWQNTS.png",
+            "https://imgur.com/wkbdaiZ.png",
+            "https://imgur.com/9843uuv.png"
+        ]
+    },
+    "JUGGERNAUT": {
+        "name": "Beta",
+        "alias": "b",
+        "color": 12189696,
+        "thumbnailUrl": "https://msf.gg/character_images/UltSpiderMan.png",
+        "url": "https://msf.gg/raids/raid_beta_c",
+        "laneImages": [
+            "https://imgur.com/8WCg3FQ.png",
+            "https://imgur.com/8WCg3FQ.png",
+            "https://imgur.com/uzNEOJP.png",
+            "https://imgur.com/uzNEOJP.png",
+            "https://imgur.com/RJK0bTQ.png",
+            "https://imgur.com/RJK0bTQ.png",
+            "https://imgur.com/guWs0gt.png",
+            "https://imgur.com/guWs0gt.png"
+        ]
+    },
+    "THANOS": {
+        "name": "Thanos",
+        "alias": "t",
+        "color": 10893995,
+        "thumbnailUrl": "https://imgur.com/npUHjpS.png",
+        "url": "https://msf.gg/raids/raid_thanos_lvl_60_v3"
+    },
+    "ULTIMUS": {
+        "name": "Ultimus",
+        "alias": "u",
+        "color": 3576773,
+        "thumbnailUrl": "https://imgur.com/n4HzyGL.png",
+        "url": "https://msf.gg/raids/raid_lvl_65",
+        "laneImages": [
+            "https://imgur.com/Zr22mlf.png",
+            "https://imgur.com/maN4PxM.png",
+            "https://imgur.com/zavRO2L.png",
+            "https://imgur.com/iyXOMxT.png",
+            "https://imgur.com/A0tVZyh.png",
+            "https://imgur.com/bsvIdsM.png",
+            "https://imgur.com/Iv8S5na.png",
+            "https://imgur.com/BzcrBh5.png"
+        ]
+    },
+    "VENOM": {
+        "name": "Venom",
+        "alias": "v",
+        "color": 1,
+        "thumbnailUrl": "https://imgur.com/fpk02SA.png",
+        "url": "https://msf.gg/raids/raid_gen_02_a",
+        "laneImages": [
+            "https://imgur.com/fugr76J.png",
+            "https://imgur.com/FWNMeoM.png",
+            "https://imgur.com/gVtM859.png",
+            "https://imgur.com/lgDDcPK.png",
+            "https://imgur.com/XPsc60n.png",
+            "https://imgur.com/3Dkudbv.png",
+            "https://imgur.com/R1cNqJJ.png",
+            "https://imgur.com/Bjywhy0.png"
+        ]
+    },
+    "GAMMA": {
+        "name": "Gamma",
+        "alias": "g",
+        "color": 12189696,
+        "thumbnailUrl": "https://msf.gg/character_images/Juggernaut.png",
+        "url": "https://msf.gg/raids/raid_gamma_d",
+        "laneImages": [
+            "https://imgur.com/5K3jkuZ.png",
+            "https://imgur.com/pjIba13.png",
+            "https://imgur.com/penUmG8.png",
+            "https://imgur.com/i8ApH5H.png",
+            "https://imgur.com/ZZotvZ6.png",
+            "https://imgur.com/l3y1Fau.png",
+            "https://imgur.com/PoNtGsP.png",
+            ""
+        ]
+    }
+}

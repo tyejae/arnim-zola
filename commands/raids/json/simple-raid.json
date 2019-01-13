@@ -1,0 +1,33 @@
+{
+    "embed": {
+      "url": "https://discordapp.com",
+      "description": "*Showing Open Lanes*",
+      "color": 0,
+      "thumbnail": {
+        "url": ""
+      },
+      "author": {
+        "name": "",
+        "url": "https://discordapp.com",
+        "icon_url": "https://msf.gg/static/favicon-32x32.png"
+      },
+      "fields": [
+        {
+          "name": "Team 1",
+          "value": ""
+        },
+        {
+          "name": "Team 2",
+          "value": ""
+        },
+        {
+          "name": "Team 3",
+          "value": ""
+        }
+      ],
+      "footer": {
+          "icon_url": "https://msf.gg/static/favicon-32x32.png",
+          "text": "Find detail about this raid on MSF.gg"
+      }
+    }
+  }
