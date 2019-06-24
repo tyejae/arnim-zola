@@ -25,7 +25,7 @@ class AssignCmd extends Commando.Command {
                 console.log(`[${new Date().toLocaleDateString('en-US', options)}][${message.channel.name}] ${message.member.displayName} said "${message.content}"`);
             }
             if (SecurityUtil.isOfficer(message.member) || message.member.displayName === 'tyejae') {
-                if (/<\@!?\w*> [d|j|t|u|a|b|g]{1} [1-3]{1} [1-8]{1}/.exec(args)) {
+                if (/<\@!?\w*> [d|j|t|u|a|b|g|^u7$]{1} [1-3]{1} [1-8]{1}/.exec(args)) {
                     let argSplit = args.split(' ');
                     let raid;
                     switch (argSplit[1]) {
