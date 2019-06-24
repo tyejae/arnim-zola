@@ -57,6 +57,23 @@
             "https://imgur.com/BzcrBh5.png"
         ]
     },
+    "ULTIMUS7": {
+        "name": "Ultimus 7",
+        "alias": "u7",
+        "color": 3576773,
+        "thumbnailUrl": "https://imgur.com/n4HzyGL.png",
+        "url": "https://msf.gg/raids/raid_lvl_70",
+        "laneImages": [
+            "https://imgur.com/SkNGaqw.png",
+            "https://imgur.com/PHcfTFE.png",
+            "https://imgur.com/2Z39lZq.png",
+            "https://imgur.com/s4sI8Q6.png",
+            "https://imgur.com/udSRRuV.png",
+            "https://imgur.com/e6F7TsZ.png",
+            "https://imgur.com/8ndGAl9.png",
+            "https://imgur.com/fLsXKqP.png"
+        ]
+    },
     "VENOM": {
         "name": "Alpha",
         "alias": "a",

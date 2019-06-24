@@ -33,6 +33,7 @@ class AssignCmd extends Commando.Command {
                         case 'j': raid = Raids.JUGGERNAUT; break;
                         case 't': raid = Raids.THANOS; break;
                         case 'u': raid = Raids.ULTIMUS; break;
+                        case 'u7': raid = Raids.ULTIMUS7; break;
                         case 'a': raid = Raids.VENOM; break;
                         case 'b': raid = Raids.JUGGERNAUT; break;
                         case 'g': raid = Raids.GAMMA; break;

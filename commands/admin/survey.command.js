@@ -37,7 +37,10 @@ class SurveyCmd extends Commando.Command {
                         case 'j': raid = Raids.JUGGERNAUT; break;
                         case 't': raid = Raids.THANOS; break;
                         case 'u': raid = Raids.ULTIMUS; break;
-                        case 'v': raid = Raids.VENOM; break;
+                        case 'u7': raid = Raids.ULTIMUS7; break;
+                        case 'a': raid = Raids.VENOM; break;
+                        case 'b': raid = Raids.JUGGERNAUT; break;
+                        case 'g': raid = Raids.GAMMA; break;
                     }
                     Request(`https://run.tyejae.com/services/getLaneAssignments?id=${message.channel.id}&raid=${raid.name}`, (error, response, body) => {
                         if (!error && response.statusCode == 200) {
