@@ -1,5 +1,6 @@
 const SimpleRaidService = require('../services/simple-raid.service');
 const DetailedRaidService = require('../services/detailed-raid.service');
+const ShameService = require('../services/shame.service');
 const SecurityUtil = require('../util/security-util');
 const LaneUtil = require('../util/lane-util');
 const TutorialUtil = require('./tutorial-util');
@@ -25,6 +26,8 @@ class MessageUtil {
                 SimpleRaidService.sendMessage(message, raid, false);
             } else if (/^\d* \d*$/.exec(args)) {
                 LaneUtil.callLane(message, args, raid);
+            } else if (/^shame$/.exec(args)) {
+                ShameService.shameMissingMembers(message, raid);
             } else {
                 message.channel.send({ embed: TutorialUtil.getTutorial(message, raid) })
                     .then((reply) => reply.delete(60000));

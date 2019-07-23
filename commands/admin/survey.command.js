@@ -38,7 +38,7 @@ class SurveyCmd extends Commando.Command {
                         case 't': raid = Raids.THANOS; break;
                         case 'u': raid = Raids.ULTIMUS; break;
                         case 'u7': raid = Raids.ULTIMUS7; break;
-                        case 'a': raid = Raids.VENOM; break;
+                        case 'a': raid = Raids.ALPHA; break;
                         case 'b': raid = Raids.JUGGERNAUT; break;
                         case 'g': raid = Raids.GAMMA; break;
                     }

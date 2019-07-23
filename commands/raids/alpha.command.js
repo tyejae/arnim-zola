@@ -1,13 +1,15 @@
 const Commando = require('discord.js-commando');
 const Raids = require('./json/raids.json');
 const MessageUtil = require('./util/message-util');
-const RAID = Raids.VENOM;
+const RAID = Raids.ALPHA;
+const RAID_HYDRA_II = Raids.ALPHA_HYDRA_II;
+const HYRDRA_II_CHANNEL_ID = '516657876807450634';
 const Formatter = new Intl.DateTimeFormat([], {
     timeZone: "America/New_York",
     hour: 'numeric', minute: 'numeric', hour12: true
 });
 
-class DeadpoolCmd extends Commando.Command {
+class AlphaCommand extends Commando.Command {
     constructor(client) {
         super(client, {
             name: RAID.name.toLowerCase(),
@@ -21,7 +23,11 @@ class DeadpoolCmd extends Commando.Command {
         });
     }
     async run(message, args) {
-        MessageUtil.handleMessage(message, args, RAID);
+        if (message.channel.id === HYRDRA_II_CHANNEL_ID) {
+            MessageUtil.handleMessage(message, args, RAID_HYDRA_II);
+        } else {
+            MessageUtil.handleMessage(message, args, RAID);
+        }
     }
 }
-module.exports = DeadpoolCmd
+module.exports = AlphaCommand

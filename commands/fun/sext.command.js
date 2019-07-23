@@ -40,10 +40,13 @@ class SextCmd extends Commando.Command {
         });
     }
     async run(message, args) {
-        let photo = FlickrImages[Math.floor(Math.random() * FlickrImages.length)];
-        let url = `https://farm${photo.farm}.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}.jpg`;
-        message.author.send(url).then(message.delete(2000))
-        // console.log(Math.floor(Math.random() * 100))
+        try {
+            let photo = FlickrImages[Math.floor(Math.random() * FlickrImages.length)];
+            let url = `https://farm${photo.farm}.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}.jpg`;
+            message.author.send(url).then(message.delete(2000))
+        } catch (e) {
+            message.author.send('Some error occurred :(');
+        }
     }
 }
 module.exports = SextCmd

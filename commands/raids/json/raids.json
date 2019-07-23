@@ -74,7 +74,24 @@
             "https://imgur.com/fLsXKqP.png"
         ]
     },
-    "VENOM": {
+    "ALPHA": {
+        "name": "Alpha",
+        "alias": "a",
+        "color": 1,
+        "thumbnailUrl": "https://msf.gg/character_images/BlackPanther.png",
+        "url": "https://msf.gg/raids/raid_gen_02_a",
+        "laneImages": [
+            "https://imgur.com/fugr76J.png",
+            "https://imgur.com/FWNMeoM.png",
+            "https://imgur.com/9lPqqyu.png",
+            "https://imgur.com/lgDDcPK.png",
+            "https://imgur.com/XPsc60n.png",
+            "https://imgur.com/DWLDVGA.png",
+            "https://imgur.com/R1cNqJJ.png",
+            "https://imgur.com/Bjywhy0.png"
+        ]
+    },
+    "ALPHA_HYDRA_II": {
         "name": "Alpha",
         "alias": "a",
         "color": 1,
@@ -84,8 +101,8 @@
             "https://imgur.com/fugr76J.png",
             "https://imgur.com/FWNMeoM.png",
             "https://imgur.com/gVtM859.png",
-            "https://imgur.com/lgDDcPK.png",
-            "https://imgur.com/XPsc60n.png",
+            "https://imgur.com/lDqkIrd.png",
+            "https://imgur.com/4VEZKLU.png",
             "https://imgur.com/3Dkudbv.png",
             "https://imgur.com/R1cNqJJ.png",
             "https://imgur.com/Bjywhy0.png"
