@@ -14,7 +14,8 @@ class LaneUtil {
                     channelId: message.channel.id,
                     raid: raid.name,
                     team: team,
-                    lane: lane
+                    lane: lane,
+                    name: tagged ? tagged.displayName : message.member.displayName
                 }),
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded'
