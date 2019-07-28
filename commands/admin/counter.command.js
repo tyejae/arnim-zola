@@ -69,7 +69,7 @@ class CounterCmd extends Commando.Command {
                     Request(`https://run.tyejae.com/services/getCounterList?team=${args}`, (error, response, body) => {
                         if (!error && response.statusCode == 200) {
                             const counters = JSON.parse(body).message;
-                            let msg = `These are the teams you should use to counter **Kree** teams.\n`;
+                            let msg = `These are the teams you should use to counter **${args}** teams.\n`;
                             counters.forEach((counter, index) => {
                                 msg += `\`\`\`ruby\n`;
                                 msg += `${index + 1} - ${counter.counterText}\`\`\``;
