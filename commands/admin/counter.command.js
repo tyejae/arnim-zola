@@ -85,7 +85,7 @@ class CounterCmd extends Commando.Command {
                                         }
                                     }
                                 }
-                            ).then(reply => reply.delete(15000));
+                            );
                         } else {
                             message.channel.send(`*${JSON.parse(body).message}*`).then(reply => reply.delete(5000));
                         }
