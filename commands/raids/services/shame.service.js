@@ -36,7 +36,7 @@ class ShameService {
                 channelMembers.forEach(cm => {
                     let member = message.guild.members.get(cm);
                     if (!member.user.bot && calledMembers.indexOf(cm) === -1) {
-                        message.channel.send(`**Shame** <@${member.user.id}>, you have not joined the raid yet! **Shame**`)
+                        message.channel.send(`<@${member.user.id}>, we request that you claim a lane and join the raids as soon as possible.`)
                     }
                 })
             }
