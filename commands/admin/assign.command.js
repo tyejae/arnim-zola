@@ -2,6 +2,7 @@ const Commando = require('discord.js-commando');
 const SecurityUtil = require('../raids/util/security-util');
 const LaneUtil = require('../raids/util/lane-util');
 const Raids = require('../raids/json/raids.json');
+const HYRDRA_II_CHANNEL_ID = '516657876807450634';
 
 const options = { year: 'numeric', month: 'numeric', day: 'numeric', hour:'numeric', minute:'numeric' }
 
