@@ -35,7 +35,13 @@ class AssignCmd extends Commando.Command {
                         case 't': raid = Raids.THANOS; break;
                         case 'u': raid = Raids.ULTIMUS; break;
                         case 'u7': raid = Raids.ULTIMUS7; break;
-                        case 'a': raid = Raids.ALPHA; break;
+                        case 'a':
+                            if (message.channel.id === HYRDRA_II_CHANNEL_ID) {
+                                raid = Raids.ALPHA_HYDRA_II;
+                            } else {
+                                raid = Raids.ALPHA;
+                            }
+                            break;
                         case 'b': raid = Raids.JUGGERNAUT; break;
                         case 'g': raid = Raids.GAMMA; break;
                     } 
