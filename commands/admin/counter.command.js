@@ -39,7 +39,7 @@ const COUNTER_TEAMS = {
             {
                 name: '',
                 percent: 0.15,
-                team: ['MsMarvel', 'Gamora', 'CaptainMarvel', 'Spiderman', 'Deadpool']
+                team: ['MsMarvel', 'Gamora', 'CaptainMarvel', 'SpiderMan', 'Deadpool']
             }
         ],
         soft: [
@@ -100,7 +100,7 @@ const COUNTER_TEAMS = {
             {
                 name: '',
                 percent: 0.15,
-                team: ['MsMarvel', 'Gamora', 'CaptainMarvel', 'Spiderman', 'Deadpool']
+                team: ['MsMarvel', 'Gamora', 'CaptainMarvel', 'SpiderMan', 'Deadpool']
             },
             {
                 name: '',
@@ -127,7 +127,7 @@ const COUNTER_TEAMS = {
             {
                 name: '',
                 percent: 0.15,
-                team: ['MsMarvel', 'Gamora', 'CaptainMarvel', 'Spiderman', 'Deadpool']
+                team: ['MsMarvel', 'Gamora', 'CaptainMarvel', 'SpiderMan', 'Deadpool']
             },
             {
                 name: '',
