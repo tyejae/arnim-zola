@@ -152,6 +152,17 @@
             }
         ]
     },
+    "SPIDERVERSE": {
+        "team": ["SpiderMan", "UltSpiderMan", "Venom", "Carnage", "UltGreenGoblin"],
+        "hard": [],
+        "soft": [
+            {
+                "name": "",
+                "percent": 0.15,
+                "team": ["Ronan", "KreeTank_Counter", "KreeControl_Assist", "KreeDmg_Offense", "KreeDmg_Speed", "Korath"]
+            }
+        ]
+    },
     "COULSON SHIELD": {
         "team": ["Coulson", "NickFury", "ShieldTank_Stun", "ShieldDmg_AoE", "ShieldSupport_Heal"],
         "hard": [
