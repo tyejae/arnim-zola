@@ -116,7 +116,9 @@ class CounterCmd extends Commando.Command {
                         const teamToCounter = COUNTER_TEAMS[teamName].team;
                         await this.createTeam(ctx, 25, 50, teamToCounter);
     
-                        await this.createTeam(ctx, 240, 50, COUNTER_TEAMS[teamName].hard[0].team);
+                        if (COUNTER_TEAMS[teamName].hard.length > 0) {
+                            await this.createTeam(ctx, 240, 50, COUNTER_TEAMS[teamName].hard[0].team);
+                        }
                         if (COUNTER_TEAMS[teamName].hard.length > 1) {
                             await this.createTeam(ctx, 240, 135, COUNTER_TEAMS[teamName].hard[1].team);
                         }

@@ -30,7 +30,7 @@ class SurveyCmd extends Commando.Command {
                 console.log(`[${new Date().toLocaleDateString('en-US', options)}][${message.channel.name}] ${message.member.displayName} said "${message.content}"`);
             }
             if (SecurityUtil.isOfficer(message.member) || message.member.displayName === 'tyejae') {
-                if (/d|j|t|u|v|u7/.exec(args)) {
+                if (/d|j|t|u|v|u7|g/.exec(args)) {
                     let raid;
                     switch (args) {
                         case 'd': raid = Raids.DEADPOOL; break;
