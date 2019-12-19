@@ -316,5 +316,39 @@
                 "team": ["Magneto", "Juggernaut", "Pyro", "Mystique", "Sabretooth"]
             }
         ]
+    },
+    "ASGARDIANS": {
+        "team": ["Loki", "Hela", "Thor", "Heimdall", "Sif"],
+        "hard": [
+        ],
+        "soft": [
+            {
+                "name": "",
+                "percent": 0.15,
+                "team": ["AimDmg_Speed", "ScientistSupreme", "Graviton", "AimDmg_Offense", "AimTank_Taunt"]
+            },
+            {
+                "name": "",
+                "percent": 0.15,
+                "team": ["IronMan", "Rescue", "Falcon", "WarMachine", "Vision"]
+            }
+        ]
+    },
+    "MAURAUDERS": {
+        "team": ["MrSinister", "Mystique", "Sabretooth", "Stryfe", "any"],
+        "hard": [
+            {
+                "name": "",
+                "percent": 0.15,
+                "team": ["AimDmg_Speed", "ScientistSupreme", "Graviton", "AimDmg_Offense", "AimTank_Taunt"]
+            }
+        ],
+        "soft": [
+            {
+                "name": "",
+                "percent": 0.15,
+                "team": ["InvisibleWoman", "Namor", "MrFantastic", "Thing", "HumanTorch"]
+            }
+        ]
     }
 }
