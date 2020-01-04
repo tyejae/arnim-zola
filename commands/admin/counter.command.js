@@ -122,7 +122,10 @@ class CounterCmd extends Commando.Command {
                         if (COUNTER_TEAMS[teamName].hard.length > 1) {
                             await this.createTeam(ctx, 240, 135, COUNTER_TEAMS[teamName].hard[1].team);
                         }
-                        await this.createTeam(ctx, 455, 50, COUNTER_TEAMS[teamName].soft[0].team);
+                        
+                        if (COUNTER_TEAMS[teamName].soft.length > 0) {
+                            await this.createTeam(ctx, 455, 50, COUNTER_TEAMS[teamName].soft[0].team);
+                        }
                         if (COUNTER_TEAMS[teamName].soft.length > 1) {
                             await this.createTeam(ctx, 455, 135, COUNTER_TEAMS[teamName].soft[1].team);
                         }
@@ -134,13 +137,19 @@ class CounterCmd extends Commando.Command {
                         }
                         this.drawStroked(ctx, 'HARD', 'white', (230/2) + 215, 25);
                         this.drawStroked(ctx, '+15% punch up', 'white', (230/2) + 215, 40, 14);
-                        this.drawStroked(ctx, COUNTER_TEAMS[teamName].hard[0].name, 'black', (230/2) + 215, 130);
+                        
+                        if (COUNTER_TEAMS[teamName].hard.length > 0) {
+                            this.drawStroked(ctx, COUNTER_TEAMS[teamName].hard[0].name, 'black', (230/2) + 215, 130);
+                        }
                         if (power > 0) {
                             this.drawStroked(ctx, `${parseInt(power * 0.85)}`, 'green', (230/2) + 215, canvasHeight - 30);
                         }
                         this.drawStroked(ctx, 'SOFT', 'white', (230/2) + 430, 25);
                         this.drawStroked(ctx, '-15% punch down', 'white', (230/2) + 430, 40, 14);
-                        this.drawStroked(ctx, COUNTER_TEAMS[teamName].soft[0].name, 'black', (230/2) + 430, 130);
+                        
+                        if (COUNTER_TEAMS[teamName].soft.length > 0) {
+                            this.drawStroked(ctx, COUNTER_TEAMS[teamName].soft[0].name, 'black', (230/2) + 430, 130);
+                        }
                         if (power > 0) {
                             this.drawStroked(ctx, `${parseInt(power * 1.15)}`, 'red', (230/2) + 430, canvasHeight - 30);
                         }
