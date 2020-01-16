@@ -1,6 +1,7 @@
 const TutorialUtil = require('./tutorial-util');
 const SimpleRaidService = require('../services/simple-raid.service');
 const Request = require('request');
+const HYRDRA_II_CHANNEL_ID = '516657876807450634';
 class LaneUtil {
     static callLane(message, args, raid, tagged) {
         if (/[1-3] [1-8]/.exec(args)) {
@@ -31,7 +32,15 @@ class LaneUtil {
                         }
                     });
                     if (raid.hasOwnProperty('laneImages')) {
-                        let laneMessage = `Your lane (${team}-${lane}): ${raid.laneImages[lane - 1]}\nRaid Map: ${raid.url}`;
+                        let laneImage = raid.laneImages[lane - 1];
+                        if (Array.isArray(raid.laneImages[lane - 1])) {
+                            if (message.channel.id === HYRDRA_II_CHANNEL_ID) {
+                                laneImage = laneImage[laneImage.length - 1];
+                            } else {
+                                laneImage = laneImage[0];
+                            }
+                        }
+                        let laneMessage = `Your lane (${team}-${lane}): ${laneImage}\nRaid Map: ${raid.url}`;
                         if (tagged) {
                             tagged.send(laneMessage);
                             message.channel
