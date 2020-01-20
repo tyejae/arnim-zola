@@ -49,7 +49,7 @@ class SimpleRaidService {
                     if (value) {
                         teams[team] = `\`\`\`prolog\n${value}\`\`\``;
                     } else {
-                        teams[team] = `\`\`\`prolog\nNo Available Lanes\`\`\``;
+                        teams[team] = `\`\`\`prolog\nAll Lanes Claimed\`\`\``;
                     }
                 }
                 simpleRaid.embed.fields[0].value = teams[0];
