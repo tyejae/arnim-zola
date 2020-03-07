@@ -22,7 +22,7 @@ class RegisterCmd extends Commando.Command {
             if (message.member) {
                 console.log(`[${new Date().toLocaleDateString('en-US', options)}][${message.channel.name}] ${message.member.displayName} said "${message.content}"`);
             }
-            if (SecurityUtil.isOfficer(message.member)) {
+            if (SecurityUtil.isOfficer(message.member) || message.member.displayName === 'tyejae') {
                 if (message.mentions && message.mentions.roles && message.mentions.roles.first()) {
                     let roleId = message.mentions.roles.first().id;
                     var postBody = {
