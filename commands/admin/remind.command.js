@@ -88,11 +88,11 @@ class RemindCmd extends Commando.Command {
                     let msg = '';
                     if (raidReminder) {
                         args = RemindHelper.filterArgs(args);
-                        msg = 'please join the raids as soon as possible.'
+                        msg = 'please join the **Raids** as soon as possible.'
                     }
                     if (donationReminder) {
                         args = RemindHelper.filterArgs(args);
-                        msg = 'please get your stark tech donation in as soon as possible.'
+                        msg = 'please get your **Stark Tech Donation** in as soon as possible.'
                     }
 
                     if (raidReminder || donationReminder) {
