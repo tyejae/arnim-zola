@@ -7,7 +7,7 @@ const Request = require('request');
 const EMBED_JSON = {
     "embed": {
       "title": "Reminder Help",
-      "description": "There are two options to use for the reminder command; `raids` and `donation`. To use `!reminder` simply reference the list below and include one of these options. Here are a few examples:```1. !reminder raids Name\n2. !r r Name\n3. !r r 1\n4. !reminder donation Name\n5. !r d Name\n6. !r d 5```Below is the list of members that can be reminded (using their number or name):```REPLACE ME```",
+      "description": "There are two options to use for the reminder command; `raids`, `donation` and `war`. To use `!reminder` simply reference the list below and include one of these options. Here are a few examples:```1. !reminder raids Name\n2. !r r Name\n3. !r r 1\n4. !reminder donation Name\n5. !r d Name\n6. !r w Name```Below is the list of members that can be reminded (using their number or name):```REPLACE ME```",
       "color": 1000087
     }
   }
