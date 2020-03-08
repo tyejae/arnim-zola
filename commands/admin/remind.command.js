@@ -110,7 +110,7 @@ class RemindCmd extends Commando.Command {
                         msg = 'you are needed in **War**, please attack as soon as possible.'
                     }
 
-                    if (raidReminder || donationReminder) {
+                    if (raidReminder || donationReminder || warReminder) {
                         Request(`https://run.tyejae.com/services/getRoleId?channelId=${message.channel.id}`, (error, response, body) => {
                             let channelMembers = [];
                             if (!error && response.statusCode == 200) {
