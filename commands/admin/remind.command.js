@@ -20,6 +20,10 @@ class RemindHelper {
     static isDonationReminder(args) {
         return args.indexOf('donation ') === 0 || args.indexOf('donate ') === 0 || args.indexOf('d ') === 0;
     }
+
+    static isWarReminder(args) {
+        return args.indexOf('war ') === 0 || args.indexOf('w ') === 0;
+    }
     
     static filterArgs(args) {
         if(args.indexOf('raid ') === 0) {
@@ -38,6 +42,12 @@ class RemindHelper {
             return args.substring(7);
         }
         if(args.indexOf('d ') === 0) {
+            return args.substring(2);
+        }
+        if(args.indexOf('war ') === 0) {
+            return args.substring(4);
+        }
+        if(args.indexOf('w ') === 0) {
             return args.substring(2);
         }
         return args;
@@ -85,6 +95,7 @@ class RemindCmd extends Commando.Command {
                 } else if (args) {
                     let raidReminder = RemindHelper.isRaidReminder(args);
                     let donationReminder = RemindHelper.isDonationReminder(args);
+                    let warReminder = RemindHelper.isWarReminder(args);
                     let msg = '';
                     if (raidReminder) {
                         args = RemindHelper.filterArgs(args);
@@ -93,6 +104,10 @@ class RemindCmd extends Commando.Command {
                     if (donationReminder) {
                         args = RemindHelper.filterArgs(args);
                         msg = 'please get your **Stark Tech Donation** in as soon as possible.'
+                    }
+                    if (warReminder) {
+                        args = RemindHelper.filterArgs(args);
+                        msg = 'you are needed in **War**, please attack as soon as possible.'
                     }
 
                     if (raidReminder || donationReminder) {
