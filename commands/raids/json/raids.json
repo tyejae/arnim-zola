@@ -115,14 +115,14 @@
         "thumbnailUrl": "https://imgur.com/1iDSGpG.png",
         "url": "https://msf.gg/raids/raid_gamma_d",
         "laneImages": [
-            "https://imgur.com/5K3jkuZ.png",
-            "https://imgur.com/pjIba13.png",
-            "https://imgur.com/penUmG8.png",
-            "https://imgur.com/i8ApH5H.png",
-            "https://imgur.com/ZZotvZ6.png",
-            "https://imgur.com/l3y1Fau.png",
-            "https://imgur.com/PoNtGsP.png",
-            ""
+            ["https://imgur.com/5K3jkuZ.png", "https://imgur.com/BA18Sme.png"],
+            ["https://imgur.com/pjIba13.png", "https://imgur.com/DakNYSs.png"],
+            ["https://imgur.com/penUmG8.png", "https://imgur.com/3JKv3Ey.png"],
+            ["https://imgur.com/i8ApH5H.png", "https://imgur.com/ZHOHwiR.png"],
+            ["https://imgur.com/ZZotvZ6.png", "https://imgur.com/7CkkoHh.png"],
+            ["https://imgur.com/l3y1Fau.png", "https://imgur.com/6rAThJN.png"],
+            ["https://imgur.com/PoNtGsP.png", "https://imgur.com/W4LfnyD.png"],
+            ["", "https://imgur.com/zR2YrPr.png"]
         ]
     }
 }
