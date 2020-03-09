@@ -17,6 +17,10 @@ class RemindHelper {
         return args.indexOf('raids ') === 0 || args.indexOf('raid ') === 0 || args.indexOf('r ') === 0;
     }
 
+    static isRaid0Reminder(args) {
+        return args.indexOf('raids0 ') === 0 || args.indexOf('raid0 ') === 0 || args.indexOf('r0 ') === 0;
+    }
+
     static isDonationReminder(args) {
         return args.indexOf('donation ') === 0 || args.indexOf('donate ') === 0 || args.indexOf('d ') === 0;
     }
@@ -34,6 +38,15 @@ class RemindHelper {
         }
         if(args.indexOf('r ') === 0) {
             return args.substring(2);
+        }
+        if(args.indexOf('raid0 ') === 0) {
+            return args.substring(6);
+        }
+        if(args.indexOf('raids0 ') === 0) {
+            return args.substring(7);
+        }
+        if(args.indexOf('r0 ') === 0) {
+            return args.substring(3);
         }
         if(args.indexOf('donation ') === 0) {
             return args.substring(9);
@@ -94,10 +107,15 @@ class RemindCmd extends Commando.Command {
                     });
                 } else if (args) {
                     let raidReminder = RemindHelper.isRaidReminder(args);
+                    let raid0Reminder = RemindHelper.isRaid0Reminder(args);
                     let donationReminder = RemindHelper.isDonationReminder(args);
                     let warReminder = RemindHelper.isWarReminder(args);
                     let msg = '';
                     if (raidReminder) {
+                        args = RemindHelper.filterArgs(args);
+                        msg = ' you joined the raid **Raids**, but have not done any damage yet. Please join the **Raids** as soon as possible.'
+                    }
+                    if (raid0Reminder) {
                         args = RemindHelper.filterArgs(args);
                         msg = 'please join the **Raids** as soon as possible.'
                     }
@@ -110,7 +128,7 @@ class RemindCmd extends Commando.Command {
                         msg = 'you are needed in **War**, please attack as soon as possible.'
                     }
 
-                    if (raidReminder || donationReminder || warReminder) {
+                    if (raidReminder || donationReminder || warReminder || raid0Reminder) {
                         Request(`https://run.tyejae.com/services/getRoleId?channelId=${message.channel.id}`, (error, response, body) => {
                             let channelMembers = [];
                             if (!error && response.statusCode == 200) {
