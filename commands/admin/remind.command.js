@@ -113,7 +113,7 @@ class RemindCmd extends Commando.Command {
                     let msg = '';
                     if (raid0Reminder) {
                         args = RemindHelper.filterArgs(args);
-                        msg = ' you joined the raid **Raids**, but have not done any damage yet. Please join the **Raids** as soon as possible.'
+                        msg = ' you joined the raid **Raids**, but have not done any damage yet. Please attack as soon as possible.'
                     }
                     if (raidReminder) {
                         args = RemindHelper.filterArgs(args);
