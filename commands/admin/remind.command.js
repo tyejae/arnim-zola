@@ -111,11 +111,11 @@ class RemindCmd extends Commando.Command {
                     let donationReminder = RemindHelper.isDonationReminder(args);
                     let warReminder = RemindHelper.isWarReminder(args);
                     let msg = '';
-                    if (raidReminder) {
+                    if (raid0Reminder) {
                         args = RemindHelper.filterArgs(args);
                         msg = ' you joined the raid **Raids**, but have not done any damage yet. Please join the **Raids** as soon as possible.'
                     }
-                    if (raid0Reminder) {
+                    if (raidReminder) {
                         args = RemindHelper.filterArgs(args);
                         msg = 'please join the **Raids** as soon as possible.'
                     }
