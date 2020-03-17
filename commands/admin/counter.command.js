@@ -99,7 +99,8 @@ class CounterCmd extends Commando.Command {
                         message.channel.send(`*Not a valid team*`).then(reply => reply.delete(5000));
                     } else {
                         const teamName = args.trim().toUpperCase();
-                        let canvasHeight = COUNTER_TEAMS[teamName].hard.length > 1 || COUNTER_TEAMS[teamName].soft.length > 1 ? 250 : 165;
+                        // Get max length of teams and the multiply that by something
+                        let canvasHeight = (Math.max(COUNTER_TEAMS[teamName].hard.length, COUNTER_TEAMS[teamName].soft.length) * 85) + 80;
                         canvasHeight += power > 0 ? 20 : 0;
                         const canvas = Canvas.createCanvas(675, canvasHeight);
                         const ctx = canvas.getContext('2d');
@@ -116,19 +117,32 @@ class CounterCmd extends Commando.Command {
                         const teamToCounter = COUNTER_TEAMS[teamName].team;
                         await this.createTeam(ctx, 25, 50, teamToCounter);
     
-                        if (COUNTER_TEAMS[teamName].hard.length > 0) {
-                            await this.createTeam(ctx, 240, 50, COUNTER_TEAMS[teamName].hard[0].team);
-                        }
-                        if (COUNTER_TEAMS[teamName].hard.length > 1) {
-                            await this.createTeam(ctx, 240, 135, COUNTER_TEAMS[teamName].hard[1].team);
-                        }
-                        
-                        if (COUNTER_TEAMS[teamName].soft.length > 0) {
-                            await this.createTeam(ctx, 455, 50, COUNTER_TEAMS[teamName].soft[0].team);
-                        }
-                        if (COUNTER_TEAMS[teamName].soft.length > 1) {
-                            await this.createTeam(ctx, 455, 135, COUNTER_TEAMS[teamName].soft[1].team);
-                        }
+                        const hardPromises = []
+                        COUNTER_TEAMS[teamName].hard.forEach((team, index) => {
+                            hardPromises.push(this.createTeam(ctx, 240, 50 + (85 * index), team.team));
+                        })
+                        await Promise.all(hardPromises)
+
+                        const softPromises = []
+                        COUNTER_TEAMS[teamName].soft.forEach((team, index) => {
+                            softPromises.push(this.createTeam(ctx, 455, 50 + (85 * index), team.team));
+                        })
+                        await Promise.all(softPromises)
+
+                        COUNTER_TEAMS[teamName].hard.forEach((team, index) => {
+                            if (power > 0) {
+                                this.drawStroked(ctx, `${parseInt(power * (1 - team.percent))}`, 'green', (230/2) + 220, 125 + (85 * index));
+                            } else {
+                                this.drawStroked(ctx, `${parseInt((team.percent * 100))}%`, 'green', (230/2) + 220, 125 + (85 * index));
+                            }
+                        });
+                        COUNTER_TEAMS[teamName].soft.forEach((team, index) => {
+                            if (power > 0) {
+                                this.drawStroked(ctx, `${parseInt(power * (1 + team.percent))}`, 'red', (230/2) + 440, 125 + (85 * index));
+                            } else {
+                                this.drawStroked(ctx, `${parseInt((team.percent * 100))}%`, 'red', (230/2) + 440, 125 + (85 * index));
+                            }
+                        })
     
                         this.drawStroked(ctx, 'OPPONENT', 'white', (230/2), 25);
                         this.drawStroked(ctx, teamName, 'purple', 230/2, 130);
@@ -136,22 +150,16 @@ class CounterCmd extends Commando.Command {
                             this.drawStroked(ctx, `${power}`, 'purple', 230/2, 155);
                         }
                         this.drawStroked(ctx, 'HARD', 'white', (230/2) + 215, 25);
-                        this.drawStroked(ctx, '+15% punch up', 'white', (230/2) + 215, 40, 14);
+                        this.drawStroked(ctx, '+punch up', 'white', (230/2) + 215, 40, 14);
                         
                         if (COUNTER_TEAMS[teamName].hard.length > 0) {
                             this.drawStroked(ctx, COUNTER_TEAMS[teamName].hard[0].name, 'black', (230/2) + 215, 130);
                         }
-                        if (power > 0) {
-                            this.drawStroked(ctx, `${parseInt(power * 0.85)}`, 'green', (230/2) + 215, canvasHeight - 30);
-                        }
                         this.drawStroked(ctx, 'SOFT', 'white', (230/2) + 430, 25);
-                        this.drawStroked(ctx, '-15% punch down', 'white', (230/2) + 430, 40, 14);
+                        this.drawStroked(ctx, '-punch down', 'white', (230/2) + 430, 40, 14);
                         
                         if (COUNTER_TEAMS[teamName].soft.length > 0) {
                             this.drawStroked(ctx, COUNTER_TEAMS[teamName].soft[0].name, 'black', (230/2) + 430, 130);
-                        }
-                        if (power > 0) {
-                            this.drawStroked(ctx, `${parseInt(power * 1.15)}`, 'red', (230/2) + 430, canvasHeight - 30);
                         }
     
                         const attachment = new Discord.Attachment(canvas.toBuffer(), 'counter-image.png');
