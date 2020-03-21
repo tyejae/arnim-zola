@@ -298,6 +298,33 @@
             }
         ]
     },
+    "HYDRA": {
+        "team": ["HydraTank_Taunt", "HydraDmg_Single", "RedSkull", "HydraDmg_Buff", "HydraSupport_Heal"],
+        "hard": [
+            {
+                "name": "",
+                "percent": 0.20,
+                "team": ["Quake", "YoYo", "BlackBolt", "Karnak", "Crystal"]
+            },
+            {
+                "name": "",
+                "percent": 0.00,
+                "team": ["UltronDmg_Defense", "UltronDmg_Offense", "Ultron", "UltronDmg_Speed", "UltronSupport_Heal"]
+            }
+        ],
+        "soft": [
+            {
+                "name": "",
+                "percent": 0.50,
+                "team": ["MBaku", "BlackPanther", "Shuri", "Killmonger", "Okoye"]
+            },
+            {
+                "name": "",
+                "percent": 0.50,
+                "team": ["Colossus", "Phoenix", "Cyclops", "Storm", "Wolverine"]
+            }
+        ]
+    },
     "INHUMANS": {
         "team": ["Quake", "YoYo", "BlackBolt", "Karnak", "Crystal"],
         "hard": [
@@ -326,7 +353,7 @@
             {
                 "name": "",
                 "percent": 0.30,
-                "team": ["any", "any", "Ultron", "any", "any"]
+                "team": ["UltronDmg_Defense", "UltronDmg_Offense", "Ultron", "UltronDmg_Speed", "UltronSupport_Heal"]
             },
             {
                 "name": "",
@@ -358,7 +385,7 @@
             {
                 "name": "",
                 "percent": 0.15,
-                "team": ["any", "any", "Ultron", "any", "any"]
+                "team": ["UltronDmg_Defense", "UltronDmg_Offense", "Ultron", "UltronDmg_Speed", "UltronSupport_Heal"]
             }
         ],
         "soft": [
@@ -501,7 +528,7 @@
             {
                 "name": "",
                 "percent": 0.15,
-                "team": ["any", "any", "Ultron", "any", "any"]
+                "team": ["UltronDmg_Defense", "UltronDmg_Offense", "Ultron", "UltronDmg_Speed", "UltronSupport_Heal"]
             }
         ],
         "soft": [
@@ -554,7 +581,7 @@
             {
                 "name": "",
                 "percent": 0.15,
-                "team": ["any", "any", "Ultron", "any", "any"]
+                "team": ["UltronDmg_Defense", "UltronDmg_Offense", "Ultron", "UltronDmg_Speed", "UltronSupport_Heal"]
             }
         ],
         "soft": [
@@ -566,7 +593,7 @@
         ]
     },
     "ULTRON": {
-        "team": ["any", "any", "Ultron", "any", "any"],
+        "team": ["UltronDmg_Defense", "UltronDmg_Offense", "Ultron", "UltronDmg_Speed", "UltronSupport_Heal"],
         "hard": [
             {
                 "name": "",
