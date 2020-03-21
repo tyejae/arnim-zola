@@ -59,6 +59,15 @@ class CounterCmd extends Commando.Command {
         ctx.fillText(text, x, y);
     }
 
+    drawCommandText(ctx, canvas, text) {
+        const x = canvas.width - 5;
+        const y = canvas.height - 5;
+        ctx.font = `bold 12px Sans-serif`;
+        ctx.textAlign = 'right';
+        ctx.fillStyle = 'grey';
+        ctx.fillText(text, x, y);
+    }
+
     async run(message, args) {
         if (message.channel.type === 'dm') {
             return message.channel.send('This Bot does not respond to commands via PM.');
@@ -71,7 +80,7 @@ class CounterCmd extends Commando.Command {
                         msg += `\`\`\`ruby\n`;
                         msg += `${index + 1} - ${counter}\`\`\``;
                     })
-                    msg += `\nTo view team counters type \`!counter <team name>\``;
+                    msg += `\nTo view team counters type\n\`!counter <team name> <power: optional>\``;
                     message.channel.send(
                         {
                             "embed": {
@@ -96,7 +105,18 @@ class CounterCmd extends Commando.Command {
                     }
                     const isValidTeam = Object.keys(COUNTER_TEAMS).indexOf(args.trim().toUpperCase()) > -1;
                     if (!isValidTeam) {
-                        message.channel.send(`*Not a valid team*`).then(reply => reply.delete(5000));
+                        message.channel.send(
+                            {
+                                "embed": {
+                                    "title": `Not A Team`,
+                                    "description": `*__${args}__* is not a valid team.\n\nTo view a list of teams use \`!counter\``,
+                                    "color": 1428309,
+                                    "footer": {
+                                        "text": `Requested by ${message.member.displayName}`
+                                    }
+                                }
+                            }
+                        ).then(reply => reply.delete(10000));
                     } else {
                         const teamName = args.trim().toUpperCase();
                         // Get max length of teams and the multiply that by something
@@ -113,6 +133,8 @@ class CounterCmd extends Commando.Command {
                         ctx.fillRect(0, canvas.height - 20, canvas.width, 20);
                         ctx.globalAlpha = 1.0;
                         this.drawText(ctx, `Requested by ${message.member.displayName}`, 'white', 10, canvas.height - 5, 12);
+
+                        this.drawCommandText(ctx, canvas, `!counter ${args} ${power ? power : ''}`);
 
                         const teamToCounter = COUNTER_TEAMS[teamName].team;
                         await this.createTeam(ctx, 25, 50, teamToCounter);
