@@ -308,19 +308,24 @@
             },
             {
                 "name": "",
-                "percent": 0.00,
+                "percent": -0.10,
                 "team": ["UltronDmg_Defense", "UltronDmg_Offense", "Ultron", "UltronDmg_Speed", "UltronSupport_Heal"]
             }
         ],
         "soft": [
             {
                 "name": "",
-                "percent": 0.50,
+                "percent": 0.40,
+                "team": ["Groot", "StarLord", "RocketRaccoon", "Thanos", "Minerva"]
+            },
+            {
+                "name": "",
+                "percent": 0.75,
                 "team": ["MBaku", "BlackPanther", "Shuri", "Killmonger", "Okoye"]
             },
             {
                 "name": "",
-                "percent": 0.50,
+                "percent": 0.75,
                 "team": ["Colossus", "Phoenix", "Cyclops", "Storm", "Wolverine"]
             }
         ]
