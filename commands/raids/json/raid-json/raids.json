@@ -1,0 +1,2055 @@
+{
+    "Name": "RaidList",
+    "RaidList": [
+        {
+            "raidId": "raid_lvl_25",
+            "name": "Ultimus Raid I",
+            "duration": 24,
+            "total_rooms": 22,
+            "total_missions": 18,
+            "description": "Earn Ability Materials",
+            "details": "Take down the minions of Ultimus!\\n\\nRecommendations:\\n- Squad Lvl 20-25+\\n- Gear Tier 4+\\n- Ability Lvl 2+",
+            "image": "Ultimus_Raid1",
+            "mapBgImageTopLeft": "raid_Map_TL.png",
+            "mapBgImageTopRight": "raid_Map_TR.png",
+            "mapBgImageBottomLeft": "raid_Map_BL.png",
+            "mapBgImageBottomRight": "raid_Map_BR.png",
+            "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+            "startNodePosition": {
+                "x": 500,
+                "y": 200
+            },
+            "scrollBoundarySize": {
+                "x": 3400,
+                "y": 2100
+            },
+            "nearZoom": 4,
+            "farZoom": 10,
+            "backgroundParallaxDelta": 0.5,
+            "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_20_25",
+            "player_limit": 3,
+            "group": "hydra_raids",
+            "isOperation": false,
+            "stCount": 1,
+            "stPlayerLimit": 3,
+            "stNextTeamUnlockThreshold": 3,
+            "allianceProgressText": "",
+            "strikeTeamImages": [
+                "Ultimus_Raid1"
+            ],
+            "cost": [
+                {
+                    "res": "ave_key_ultimus",
+                    "amount": 1800
+                }
+            ],
+            "objectives": [],
+            "alliance_rewards": [],
+            "percent_complete_thresholds": [
+                30,
+                60,
+                100
+            ],
+            "consolation_reward": "r_participation_25",
+            "tier_rewards": {
+                "1": {
+                    "rankStart": 1,
+                    "rankEnd": 1,
+                    "rewards": [
+                        "r_ctrb_lvl25_rnk01_mdl1",
+                        "r_ctrb_lvl25_rnk01_mdl2",
+                        "r_ctrb_lvl25_rnk01_mdl3"
+                    ]
+                },
+                "2": {
+                    "rankStart": 2,
+                    "rankEnd": 2,
+                    "rewards": [
+                        "r_ctrb_lvl25_rnk02_mdl1",
+                        "r_ctrb_lvl25_rnk02_mdl2",
+                        "r_ctrb_lvl25_rnk02_mdl3"
+                    ]
+                },
+                "3": {
+                    "rankStart": 3,
+                    "rankEnd": 3,
+                    "rewards": [
+                        "r_ctrb_lvl25_rnk03_mdl1",
+                        "r_ctrb_lvl25_rnk03_mdl2",
+                        "r_ctrb_lvl25_rnk03_mdl3"
+                    ]
+                }
+            },
+            "requirements": {},
+            "filters": {
+                "description": "",
+                "shortDescription": "",
+                "longDescription": "",
+                "previewDescription": "",
+                "quantity": 0,
+                "filters": {}
+            }
+        },
+        {
+            "raidId": "raid_lvl_30",
+            "name": "Ultimus Raid II",
+            "duration": 24,
+            "total_rooms": 38,
+            "total_missions": 35,
+            "description": "Earn Ability Materials",
+            "details": "Take down Ultimus's minions!\\n\\nRecommendations:\\n- Squad Lvl 25-30+\\n- Gear Tier 4+\\n- Ability Lvl 3+",
+            "image": "Ultimus_Raid2",
+            "mapBgImageTopLeft": "raid_Map_TL.png",
+            "mapBgImageTopRight": "raid_Map_TR.png",
+            "mapBgImageBottomLeft": "raid_Map_BL.png",
+            "mapBgImageBottomRight": "raid_Map_BR.png",
+            "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+            "startNodePosition": {
+                "x": 550,
+                "y": 550
+            },
+            "scrollBoundarySize": {
+                "x": 3600,
+                "y": 2400
+            },
+            "nearZoom": 4,
+            "farZoom": 10,
+            "backgroundParallaxDelta": 0.5,
+            "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_25_30",
+            "player_limit": 8,
+            "group": "hydra_raids",
+            "isOperation": false,
+            "stCount": 1,
+            "stPlayerLimit": 8,
+            "stNextTeamUnlockThreshold": 8,
+            "allianceProgressText": "",
+            "strikeTeamImages": [
+                "Ultimus_Raid2"
+            ],
+            "cost": [
+                {
+                    "res": "ave_key_ultimus",
+                    "amount": 2500
+                }
+            ],
+            "objectives": [],
+            "alliance_rewards": [],
+            "percent_complete_thresholds": [
+                30,
+                60,
+                100
+            ],
+            "consolation_reward": "r_participation_30",
+            "tier_rewards": {
+                "1": {
+                    "rankStart": 1,
+                    "rankEnd": 1,
+                    "rewards": [
+                        "r_ctrb_lvl30_rnk01_mdl1",
+                        "r_ctrb_lvl30_rnk01_mdl2",
+                        "r_ctrb_lvl30_rnk01_mdl3"
+                    ]
+                },
+                "2": {
+                    "rankStart": 2,
+                    "rankEnd": 2,
+                    "rewards": [
+                        "r_ctrb_lvl30_rnk02_mdl1",
+                        "r_ctrb_lvl30_rnk02_mdl2",
+                        "r_ctrb_lvl30_rnk02_mdl3"
+                    ]
+                },
+                "3": {
+                    "rankStart": 3,
+                    "rankEnd": 4,
+                    "rewards": [
+                        "r_ctrb_lvl30_rnk03_mdl1",
+                        "r_ctrb_lvl30_rnk03_mdl2",
+                        "r_ctrb_lvl30_rnk03_mdl3"
+                    ]
+                },
+                "4": {
+                    "rankStart": 5,
+                    "rankEnd": 8,
+                    "rewards": [
+                        "r_ctrb_lvl30_rnk04_mdl1",
+                        "r_ctrb_lvl30_rnk04_mdl2",
+                        "r_ctrb_lvl30_rnk04_mdl3"
+                    ]
+                }
+            },
+            "requirements": {},
+            "filters": {
+                "description": "",
+                "shortDescription": "",
+                "longDescription": "",
+                "previewDescription": "",
+                "quantity": 5,
+                "filters": {
+                    "loyalty": 1,
+                    "level": 1
+                }
+            },
+            "isEvent": false
+        },
+        {
+            "raidId": "raid_lvl_35",
+            "name": "Ultimus Raid III",
+            "duration": 24,
+            "total_rooms": 57,
+            "total_missions": 52,
+            "description": "Earn Ability Materials",
+            "details": "Fight your way to the Raid Bosses!\\n\\nRecommendations:\\n- Squad Lvl 30-35+\\n- Gear Tier 5+\\n- Ability Lvl 3+",
+            "image": "Ultimus_Raid3",
+            "mapBgImageTopLeft": "raid_Map_TL.png",
+            "mapBgImageTopRight": "raid_Map_TR.png",
+            "mapBgImageBottomLeft": "raid_Map_BL.png",
+            "mapBgImageBottomRight": "raid_Map_BR.png",
+            "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+            "startNodePosition": {
+                "x": 800,
+                "y": 400
+            },
+            "scrollBoundarySize": {
+                "x": 4096,
+                "y": 2400
+            },
+            "nearZoom": 4,
+            "farZoom": 10,
+            "backgroundParallaxDelta": 0.5,
+            "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_30_35",
+            "player_limit": 16,
+            "group": "hydra_raids",
+            "isOperation": false,
+            "stCount": 2,
+            "stPlayerLimit": 8,
+            "stNextTeamUnlockThreshold": 0,
+            "allianceProgressText": "",
+            "strikeTeamImages": [
+                "Ultimus_Raid3",
+                "Ultimus_Raid3"
+            ],
+            "cost": [
+                {
+                    "res": "ave_key_ultimus",
+                    "amount": 6000
+                }
+            ],
+            "objectives": [],
+            "alliance_rewards": [],
+            "percent_complete_thresholds": [
+                30,
+                60,
+                100
+            ],
+            "consolation_reward": "r_participation_35",
+            "tier_rewards": {
+                "1": {
+                    "rankStart": 1,
+                    "rankEnd": 1,
+                    "rewards": [
+                        "r_ctrb_lvl35_rnk01_mdl1",
+                        "r_ctrb_lvl35_rnk01_mdl2",
+                        "r_ctrb_lvl35_rnk01_mdl3"
+                    ]
+                },
+                "2": {
+                    "rankStart": 2,
+                    "rankEnd": 3,
+                    "rewards": [
+                        "r_ctrb_lvl35_rnk02_mdl1",
+                        "r_ctrb_lvl35_rnk02_mdl2",
+                        "r_ctrb_lvl35_rnk02_mdl3"
+                    ]
+                },
+                "3": {
+                    "rankStart": 4,
+                    "rankEnd": 8,
+                    "rewards": [
+                        "r_ctrb_lvl35_rnk03_mdl1",
+                        "r_ctrb_lvl35_rnk03_mdl2",
+                        "r_ctrb_lvl35_rnk03_mdl3"
+                    ]
+                },
+                "4": {
+                    "rankStart": 9,
+                    "rankEnd": 16,
+                    "rewards": [
+                        "r_ctrb_lvl35_rnk04_mdl1",
+                        "r_ctrb_lvl35_rnk04_mdl2",
+                        "r_ctrb_lvl35_rnk04_mdl3"
+                    ]
+                }
+            },
+            "requirements": {},
+            "filters": {
+                "description": "",
+                "shortDescription": "",
+                "longDescription": "",
+                "previewDescription": "",
+                "quantity": 0,
+                "filters": {}
+            }
+        },
+        {
+            "raidId": "raid_lvl_40",
+            "name": "Ultimus Raid IV",
+            "duration": 24,
+            "total_rooms": 38,
+            "total_missions": 36,
+            "description": "Earn Ability Materials",
+            "details": "Ronan is prepared for you. Push past ambushes to take him down.\\n\\nRecommendations:\\n- Squad Lvl 35-45+\\n- Gear Tier 6+\\n- Ability Lvl 4+",
+            "image": "Ultimus_Raid4",
+            "mapBgImageTopLeft": "raid_Map_TL.png",
+            "mapBgImageTopRight": "raid_Map_TR.png",
+            "mapBgImageBottomLeft": "raid_Map_BL.png",
+            "mapBgImageBottomRight": "raid_Map_BR.png",
+            "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+            "startNodePosition": {
+                "x": 800,
+                "y": 600
+            },
+            "scrollBoundarySize": {
+                "x": 3600,
+                "y": 2400
+            },
+            "nearZoom": 4,
+            "farZoom": 10,
+            "backgroundParallaxDelta": 0.5,
+            "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_35_45",
+            "player_limit": 24,
+            "group": "hydra_raids",
+            "isOperation": false,
+            "stCount": 3,
+            "stPlayerLimit": 8,
+            "stNextTeamUnlockThreshold": 0,
+            "allianceProgressText": "",
+            "strikeTeamImages": [
+                "Ultimus_Raid4",
+                "Ultimus_Raid4",
+                "Ultimus_Raid4"
+            ],
+            "cost": [
+                {
+                    "res": "ave_key_ultimus",
+                    "amount": 10000
+                }
+            ],
+            "objectives": [
+                {
+                    "description": null,
+                    "percentage_completed": 50,
+                    "rooms_completed": []
+                },
+                {
+                    "description": null,
+                    "percentage_completed": 0,
+                    "rooms_completed": [
+                        "B1",
+                        "A7",
+                        "G3",
+                        "G5",
+                        "E7"
+                    ]
+                }
+            ],
+            "alliance_rewards": [],
+            "percent_complete_thresholds": [
+                30,
+                60,
+                100
+            ],
+            "consolation_reward": "r_participation_40",
+            "tier_rewards": {
+                "1": {
+                    "rankStart": 1,
+                    "rankEnd": 2,
+                    "rewards": [
+                        "r_ctrb_lvl40_rnk01_mdl1",
+                        "r_ctrb_lvl40_rnk01_mdl2",
+                        "r_ctrb_lvl40_rnk01_mdl3"
+                    ]
+                },
+                "2": {
+                    "rankStart": 3,
+                    "rankEnd": 6,
+                    "rewards": [
+                        "r_ctrb_lvl40_rnk02_mdl1",
+                        "r_ctrb_lvl40_rnk02_mdl2",
+                        "r_ctrb_lvl40_rnk02_mdl3"
+                    ]
+                },
+                "3": {
+                    "rankStart": 7,
+                    "rankEnd": 12,
+                    "rewards": [
+                        "r_ctrb_lvl40_rnk03_mdl1",
+                        "r_ctrb_lvl40_rnk03_mdl2",
+                        "r_ctrb_lvl40_rnk03_mdl3"
+                    ]
+                },
+                "4": {
+                    "rankStart": 13,
+                    "rankEnd": 24,
+                    "rewards": [
+                        "r_ctrb_lvl40_rnk04_mdl1",
+                        "r_ctrb_lvl40_rnk04_mdl2",
+                        "r_ctrb_lvl40_rnk04_mdl3"
+                    ]
+                }
+            },
+            "requirements": {},
+            "filters": {
+                "description": "",
+                "shortDescription": "",
+                "longDescription": "",
+                "previewDescription": "",
+                "quantity": 5,
+                "filters": {
+                    "level": 1,
+                    "loyalty": 1
+                }
+            },
+            "isEvent": false
+        },
+        {
+            "raidId": "raid_lvl_50_v2",
+            "name": "Ultimus Raid V",
+            "duration": 24,
+            "total_rooms": 59,
+            "total_missions": 51,
+            "description": "Earn Ability Materials",
+            "details": "Take on tougher enemies than in any previous Raid!\\n\\nRecommendations:\\n- Squad Lvl 45-60+\\n- Gear Tier 7+\\n- Ability Lvl 5+",
+            "image": "Ultimus_Raid5",
+            "mapBgImageTopLeft": "raid_Map_TL.png",
+            "mapBgImageTopRight": "raid_Map_TR.png",
+            "mapBgImageBottomLeft": "raid_Map_BL.png",
+            "mapBgImageBottomRight": "raid_Map_BR.png",
+            "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+            "startNodePosition": {
+                "x": 700,
+                "y": 500
+            },
+            "scrollBoundarySize": {
+                "x": 4096,
+                "y": 2400
+            },
+            "nearZoom": 4,
+            "farZoom": 10,
+            "backgroundParallaxDelta": 0.5,
+            "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_45_60",
+            "player_limit": 24,
+            "group": "hydra_raids",
+            "isOperation": false,
+            "stCount": 3,
+            "stPlayerLimit": 8,
+            "stNextTeamUnlockThreshold": 0,
+            "allianceProgressText": "",
+            "strikeTeamImages": [
+                "Ultimus_Raid5",
+                "Ultimus_Raid5",
+                "Ultimus_Raid5"
+            ],
+            "cost": [
+                {
+                    "res": "ave_key_ultimus",
+                    "amount": 11500
+                }
+            ],
+            "objectives": [],
+            "alliance_rewards": [],
+            "percent_complete_thresholds": [
+                30,
+                60,
+                100
+            ],
+            "consolation_reward": "r_participation_50",
+            "tier_rewards": {
+                "1": {
+                    "rankStart": 1,
+                    "rankEnd": 2,
+                    "rewards": [
+                        "r_ctrb_lvl50_rnk01_mdl1",
+                        "r_ctrb_lvl50_rnk01_mdl2",
+                        "r_ctrb_lvl50_rnk01_mdl3"
+                    ]
+                },
+                "2": {
+                    "rankStart": 3,
+                    "rankEnd": 6,
+                    "rewards": [
+                        "r_ctrb_lvl50_rnk02_mdl1",
+                        "r_ctrb_lvl50_rnk02_mdl2",
+                        "r_ctrb_lvl50_rnk02_mdl3"
+                    ]
+                },
+                "3": {
+                    "rankStart": 7,
+                    "rankEnd": 12,
+                    "rewards": [
+                        "r_ctrb_lvl50_rnk03_mdl1",
+                        "r_ctrb_lvl50_rnk03_mdl2",
+                        "r_ctrb_lvl50_rnk03_mdl3"
+                    ]
+                },
+                "4": {
+                    "rankStart": 13,
+                    "rankEnd": 24,
+                    "rewards": [
+                        "r_ctrb_lvl50_rnk04_mdl1",
+                        "r_ctrb_lvl50_rnk04_mdl2",
+                        "r_ctrb_lvl50_rnk04_mdl3"
+                    ]
+                }
+            },
+            "requirements": {},
+            "filters": {
+                "description": "",
+                "shortDescription": "",
+                "longDescription": "",
+                "previewDescription": "",
+                "quantity": 0,
+                "filters": {}
+            }
+        },
+        {
+            "raidId": "raid_lvl_65",
+            "name": "Ultimus Raid VI",
+            "duration": 24,
+            "total_rooms": 56,
+            "total_missions": 52,
+            "description": "Earn Ability Materials",
+            "details": "Take on tougher enemies than in any previous Raid!\\n\\nRecommendations:\\n- Squad Lvl 65+\\n- Gear Tier 10+\\n- Ability Lvl 5+",
+            "image": "Ultimus_Raid6",
+            "mapBgImageTopLeft": "raid_Map_TL.png",
+            "mapBgImageTopRight": "raid_Map_TR.png",
+            "mapBgImageBottomLeft": "raid_Map_BL.png",
+            "mapBgImageBottomRight": "raid_Map_BR.png",
+            "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+            "startNodePosition": {
+                "x": 1000,
+                "y": 500
+            },
+            "scrollBoundarySize": {
+                "x": 3400,
+                "y": 2400
+            },
+            "nearZoom": 4,
+            "farZoom": 10,
+            "backgroundParallaxDelta": 0.5,
+            "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_65_70",
+            "player_limit": 24,
+            "group": "hydra_raids",
+            "isOperation": false,
+            "stCount": 3,
+            "stPlayerLimit": 8,
+            "stNextTeamUnlockThreshold": 0,
+            "allianceProgressText": null,
+            "strikeTeamImages": [
+                "Ultimus_Raid6",
+                "Ultimus_Raid6",
+                "Ultimus_Raid6"
+            ],
+            "cost": [
+                {
+                    "res": "ave_key_ultimus",
+                    "amount": 14400
+                }
+            ],
+            "objectives": [],
+            "alliance_rewards": [],
+            "percent_complete_thresholds": [
+                30,
+                60,
+                100
+            ],
+            "consolation_reward": "r_participation_65",
+            "tier_rewards": {
+                "1": {
+                    "rankStart": 1,
+                    "rankEnd": 2,
+                    "rewards": [
+                        "r_ctrb_lvl65_rnk01_mdl1",
+                        "r_ctrb_lvl65_rnk01_mdl2",
+                        "r_ctrb_lvl65_rnk01_mdl3"
+                    ]
+                },
+                "2": {
+                    "rankStart": 3,
+                    "rankEnd": 6,
+                    "rewards": [
+                        "r_ctrb_lvl65_rnk02_mdl1",
+                        "r_ctrb_lvl65_rnk02_mdl2",
+                        "r_ctrb_lvl65_rnk02_mdl3"
+                    ]
+                },
+                "3": {
+                    "rankStart": 7,
+                    "rankEnd": 12,
+                    "rewards": [
+                        "r_ctrb_lvl65_rnk03_mdl1",
+                        "r_ctrb_lvl65_rnk03_mdl2",
+                        "r_ctrb_lvl65_rnk03_mdl3"
+                    ]
+                },
+                "4": {
+                    "rankStart": 13,
+                    "rankEnd": 24,
+                    "rewards": [
+                        "r_ctrb_lvl65_rnk04_mdl1",
+                        "r_ctrb_lvl65_rnk04_mdl2",
+                        "r_ctrb_lvl65_rnk04_mdl3"
+                    ]
+                }
+            },
+            "requirements": {},
+            "filters": {
+                "description": "",
+                "shortDescription": "",
+                "longDescription": "",
+                "previewDescription": "",
+                "quantity": 0,
+                "filters": {}
+            },
+            "isEvent": false
+        },
+        {
+            "raidId": "raid_lvl_70",
+            "name": "Ultimus VII",
+            "duration": 24,
+            "total_rooms": 86,
+            "total_missions": 60,
+            "description": "Earn Ability Materials",
+            "details": "Take on the toughest enemies yet!\\n\\nRecommendations:\\n- Squad Lvl 75+\\n- Gear Tier 12+\\n- Ability Lvl 7+\\n- Red Stars 4+",
+            "image": "Ultimus_Raid7",
+            "mapBgImageTopLeft": "raid_Map_TL.png",
+            "mapBgImageTopRight": "raid_Map_TR.png",
+            "mapBgImageBottomLeft": "raid_Map_BL.png",
+            "mapBgImageBottomRight": "raid_Map_BR.png",
+            "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+            "startNodePosition": {
+                "x": 1000,
+                "y": 800
+            },
+            "scrollBoundarySize": {
+                "x": 4000,
+                "y": 4000
+            },
+            "nearZoom": 4,
+            "farZoom": 10,
+            "backgroundParallaxDelta": 0.5,
+            "recommendedPlayerLevel": "ID_RECOMMEND_CHARACTER_LEVEL_75",
+            "player_limit": 24,
+            "group": "hydra_raids",
+            "isOperation": false,
+            "stCount": 3,
+            "stPlayerLimit": 8,
+            "stNextTeamUnlockThreshold": 0,
+            "allianceProgressText": null,
+            "strikeTeamImages": [
+                "Ultimus_Raid7",
+                "Ultimus_Raid7",
+                "Ultimus_Raid7"
+            ],
+            "cost": [
+                {
+                    "res": "ave_key_ultimus",
+                    "amount": 14400
+                }
+            ],
+            "objectives": [],
+            "alliance_rewards": [],
+            "percent_complete_thresholds": [
+                30,
+                60,
+                100
+            ],
+            "consolation_reward": "r_participation_ult7",
+            "tier_rewards": {
+                "1": {
+                    "rankStart": 1,
+                    "rankEnd": 2,
+                    "rewards": [
+                        "r_ctrb_ult7_rnk01_mdl1",
+                        "r_ctrb_ult7_rnk01_mdl2",
+                        "r_ctrb_ult7_rnk01_mdl3"
+                    ]
+                },
+                "2": {
+                    "rankStart": 3,
+                    "rankEnd": 6,
+                    "rewards": [
+                        "r_ctrb_ult7_rnk02_mdl1",
+                        "r_ctrb_ult7_rnk02_mdl2",
+                        "r_ctrb_ult7_rnk02_mdl3"
+                    ]
+                },
+                "3": {
+                    "rankStart": 7,
+                    "rankEnd": 12,
+                    "rewards": [
+                        "r_ctrb_ult7_rnk03_mdl1",
+                        "r_ctrb_ult7_rnk03_mdl2",
+                        "r_ctrb_ult7_rnk03_mdl3"
+                    ]
+                },
+                "4": {
+                    "rankStart": 13,
+                    "rankEnd": 24,
+                    "rewards": [
+                        "r_ctrb_ult7_rnk04_mdl1",
+                        "r_ctrb_ult7_rnk04_mdl2",
+                        "r_ctrb_ult7_rnk04_mdl3"
+                    ]
+                }
+            },
+            "requirements": {},
+            "filters": {
+                "description": "",
+                "shortDescription": "",
+                "longDescription": "",
+                "previewDescription": "",
+                "quantity": 0,
+                "filters": {}
+            },
+            "isEvent": false
+        },
+        {
+            "raidId": "raid_alpha_a",
+            "name": "S.T.R.I.K.E. Raid: Alpha I",
+            "duration": 24,
+            "total_rooms": 64,
+            "total_missions": 60,
+            "description": "Earn Character Shards",
+            "details": "Recommendations:\\n- Squad Lvl 35-50+\\n- Gear Tier 6+\\n- Ability Lvl 3+",
+            "image": "Alpha_Raid1",
+            "mapBgImageTopLeft": "raid_Map_TL.png",
+            "mapBgImageTopRight": "raid_Map_TR.png",
+            "mapBgImageBottomLeft": "raid_Map_BL.png",
+            "mapBgImageBottomRight": "raid_Map_BR.png",
+            "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+            "startNodePosition": {
+                "x": 1000,
+                "y": 500
+            },
+            "scrollBoundarySize": {
+                "x": 4000,
+                "y": 2750
+            },
+            "nearZoom": 6,
+            "farZoom": 12,
+            "backgroundParallaxDelta": 0.1,
+            "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_35_50",
+            "player_limit": 24,
+            "group": "alpha_raids",
+            "isOperation": false,
+            "stCount": 3,
+            "stPlayerLimit": 8,
+            "stNextTeamUnlockThreshold": 0,
+            "allianceProgressText": null,
+            "strikeTeamImages": [],
+            "cost": [
+                {
+                    "res": "ave_key_event01",
+                    "amount": 14000
+                }
+            ],
+            "objectives": [],
+            "alliance_rewards": [],
+            "percent_complete_thresholds": [
+                30,
+                60,
+                100
+            ],
+            "consolation_reward": "r_global_villains_alpha_201910_low_participation",
+            "tier_rewards": {
+                "1": {
+                    "rankStart": 1,
+                    "rankEnd": 2,
+                    "rewards": [
+                        "r_ctrb_global_villains_alpha_201910_low_rnk01_mdl1",
+                        "r_ctrb_global_villains_alpha_201910_low_rnk01_mdl2",
+                        "r_ctrb_global_villains_alpha_201910_low_rnk01_mdl3"
+                    ]
+                },
+                "2": {
+                    "rankStart": 3,
+                    "rankEnd": 6,
+                    "rewards": [
+                        "r_ctrb_global_villains_alpha_201910_low_rnk02_mdl1",
+                        "r_ctrb_global_villains_alpha_201910_low_rnk02_mdl2",
+                        "r_ctrb_global_villains_alpha_201910_low_rnk02_mdl3"
+                    ]
+                },
+                "3": {
+                    "rankStart": 7,
+                    "rankEnd": 12,
+                    "rewards": [
+                        "r_ctrb_global_villains_alpha_201910_low_rnk03_mdl1",
+                        "r_ctrb_global_villains_alpha_201910_low_rnk03_mdl2",
+                        "r_ctrb_global_villains_alpha_201910_low_rnk03_mdl3"
+                    ]
+                },
+                "4": {
+                    "rankStart": 13,
+                    "rankEnd": 24,
+                    "rewards": [
+                        "r_ctrb_global_villains_alpha_201910_low_rnk04_mdl1",
+                        "r_ctrb_global_villains_alpha_201910_low_rnk04_mdl2",
+                        "r_ctrb_global_villains_alpha_201910_low_rnk04_mdl3"
+                    ]
+                }
+            },
+            "requirements": {},
+            "filters": {
+                "description": "",
+                "shortDescription": "",
+                "longDescription": "",
+                "previewDescription": "",
+                "quantity": 0,
+                "filters": {}
+            }
+        },
+        {
+            "raidId": "raid_alpha_b",
+            "name": "S.T.R.I.K.E. Raid: Alpha II",
+            "duration": 24,
+            "total_rooms": 74,
+            "total_missions": 70,
+            "description": "Earn Character Shards",
+            "details": "Recommendations:\\n- Squad Lvl 50-60+\\n- Gear Tier 8+\\n- Ability Lvl 4+",
+            "image": "Alpha_Raid2",
+            "mapBgImageTopLeft": "raid_Map_TL.png",
+            "mapBgImageTopRight": "raid_Map_TR.png",
+            "mapBgImageBottomLeft": "raid_Map_BL.png",
+            "mapBgImageBottomRight": "raid_Map_BR.png",
+            "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+            "startNodePosition": {
+                "x": 700,
+                "y": 350
+            },
+            "scrollBoundarySize": {
+                "x": 4000,
+                "y": 2750
+            },
+            "nearZoom": 6,
+            "farZoom": 12,
+            "backgroundParallaxDelta": 0.1,
+            "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_50_60",
+            "player_limit": 24,
+            "group": "alpha_raids",
+            "isOperation": false,
+            "stCount": 3,
+            "stPlayerLimit": 8,
+            "stNextTeamUnlockThreshold": 0,
+            "allianceProgressText": null,
+            "strikeTeamImages": [],
+            "cost": [
+                {
+                    "res": "ave_key_event01",
+                    "amount": 14200
+                }
+            ],
+            "objectives": [],
+            "alliance_rewards": [],
+            "percent_complete_thresholds": [
+                30,
+                60,
+                100
+            ],
+            "consolation_reward": "r_global_villains_alpha_201910_mid_participation",
+            "tier_rewards": {
+                "1": {
+                    "rankStart": 1,
+                    "rankEnd": 2,
+                    "rewards": [
+                        "r_ctrb_global_villains_alpha_201910_mid_rnk01_mdl1",
+                        "r_ctrb_global_villains_alpha_201910_mid_rnk01_mdl2",
+                        "r_ctrb_global_villains_alpha_201910_mid_rnk01_mdl3"
+                    ]
+                },
+                "2": {
+                    "rankStart": 3,
+                    "rankEnd": 6,
+                    "rewards": [
+                        "r_ctrb_global_villains_alpha_201910_mid_rnk02_mdl1",
+                        "r_ctrb_global_villains_alpha_201910_mid_rnk02_mdl2",
+                        "r_ctrb_global_villains_alpha_201910_mid_rnk02_mdl3"
+                    ]
+                },
+                "3": {
+                    "rankStart": 7,
+                    "rankEnd": 12,
+                    "rewards": [
+                        "r_ctrb_global_villains_alpha_201910_mid_rnk03_mdl1",
+                        "r_ctrb_global_villains_alpha_201910_mid_rnk03_mdl2",
+                        "r_ctrb_global_villains_alpha_201910_mid_rnk03_mdl3"
+                    ]
+                },
+                "4": {
+                    "rankStart": 13,
+                    "rankEnd": 24,
+                    "rewards": [
+                        "r_ctrb_global_villains_alpha_201910_mid_rnk04_mdl1",
+                        "r_ctrb_global_villains_alpha_201910_mid_rnk04_mdl2",
+                        "r_ctrb_global_villains_alpha_201910_mid_rnk04_mdl3"
+                    ]
+                }
+            },
+            "requirements": {},
+            "filters": {
+                "description": "",
+                "shortDescription": "",
+                "longDescription": "",
+                "previewDescription": "",
+                "quantity": 0,
+                "filters": {}
+            }
+        },
+        {
+            "raidId": "raid_alpha_c",
+            "name": "S.T.R.I.K.E. Raid: Alpha III",
+            "duration": 24,
+            "total_rooms": 74,
+            "total_missions": 70,
+            "description": "Earn Character Shards",
+            "details": "Recommendations:\\n- Squad Lvl 60-65+\\n- Gear Tier 10+\\n- Ability Lvl 5+",
+            "image": "Alpha_Raid3",
+            "mapBgImageTopLeft": "raid_Map_TL.png",
+            "mapBgImageTopRight": "raid_Map_TR.png",
+            "mapBgImageBottomLeft": "raid_Map_BL.png",
+            "mapBgImageBottomRight": "raid_Map_BR.png",
+            "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+            "startNodePosition": {
+                "x": 700,
+                "y": 350
+            },
+            "scrollBoundarySize": {
+                "x": 4000,
+                "y": 2750
+            },
+            "nearZoom": 6,
+            "farZoom": 12,
+            "backgroundParallaxDelta": 0.1,
+            "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_60_65",
+            "player_limit": 24,
+            "group": "alpha_raids",
+            "isOperation": false,
+            "stCount": 3,
+            "stPlayerLimit": 8,
+            "stNextTeamUnlockThreshold": 0,
+            "allianceProgressText": null,
+            "strikeTeamImages": [],
+            "cost": [
+                {
+                    "res": "ave_key_event01",
+                    "amount": 14400
+                }
+            ],
+            "objectives": [],
+            "alliance_rewards": [],
+            "percent_complete_thresholds": [
+                30,
+                60,
+                100
+            ],
+            "consolation_reward": "r_global_villains_alpha_201910_high_participation",
+            "tier_rewards": {
+                "1": {
+                    "rankStart": 1,
+                    "rankEnd": 2,
+                    "rewards": [
+                        "r_ctrb_global_villains_alpha_201910_high_rnk01_mdl1",
+                        "r_ctrb_global_villains_alpha_201910_high_rnk01_mdl2",
+                        "r_ctrb_global_villains_alpha_201910_high_rnk01_mdl3"
+                    ]
+                },
+                "2": {
+                    "rankStart": 3,
+                    "rankEnd": 6,
+                    "rewards": [
+                        "r_ctrb_global_villains_alpha_201910_high_rnk02_mdl1",
+                        "r_ctrb_global_villains_alpha_201910_high_rnk02_mdl2",
+                        "r_ctrb_global_villains_alpha_201910_high_rnk02_mdl3"
+                    ]
+                },
+                "3": {
+                    "rankStart": 7,
+                    "rankEnd": 12,
+                    "rewards": [
+                        "r_ctrb_global_villains_alpha_201910_high_rnk03_mdl1",
+                        "r_ctrb_global_villains_alpha_201910_high_rnk03_mdl2",
+                        "r_ctrb_global_villains_alpha_201910_high_rnk03_mdl3"
+                    ]
+                },
+                "4": {
+                    "rankStart": 13,
+                    "rankEnd": 24,
+                    "rewards": [
+                        "r_ctrb_global_villains_alpha_201910_high_rnk04_mdl1",
+                        "r_ctrb_global_villains_alpha_201910_high_rnk04_mdl2",
+                        "r_ctrb_global_villains_alpha_201910_high_rnk04_mdl3"
+                    ]
+                }
+            },
+            "requirements": {},
+            "filters": {
+                "description": "",
+                "shortDescription": "",
+                "longDescription": "",
+                "previewDescription": "",
+                "quantity": 0,
+                "filters": {}
+            },
+            "isEvent": true
+        },
+        {
+            "raidId": "raid_alpha_d",
+            "name": "S.T.R.I.K.E. Raid: Alpha IV",
+            "duration": 24,
+            "total_rooms": 74,
+            "total_missions": 70,
+            "description": "Earn Character Shards",
+            "details": "Recommendations:\\n- Squad Lvl 65+\\n- Gear Tier 11+\\n- Ability Lvl 5+\\n- Red Stars 3+",
+            "image": "Alpha_Raid4",
+            "mapBgImageTopLeft": "raid_Map_TL.png",
+            "mapBgImageTopRight": "raid_Map_TR.png",
+            "mapBgImageBottomLeft": "raid_Map_BL.png",
+            "mapBgImageBottomRight": "raid_Map_BR.png",
+            "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+            "startNodePosition": {
+                "x": 700,
+                "y": 350
+            },
+            "scrollBoundarySize": {
+                "x": 4000,
+                "y": 2750
+            },
+            "nearZoom": 6,
+            "farZoom": 12,
+            "backgroundParallaxDelta": 0.1,
+            "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_65_70",
+            "player_limit": 24,
+            "group": "alpha_raids",
+            "isOperation": false,
+            "stCount": 3,
+            "stPlayerLimit": 8,
+            "stNextTeamUnlockThreshold": 0,
+            "allianceProgressText": null,
+            "strikeTeamImages": [],
+            "cost": [
+                {
+                    "res": "ave_key_event01",
+                    "amount": 14400
+                }
+            ],
+            "objectives": [],
+            "alliance_rewards": [],
+            "percent_complete_thresholds": [
+                30,
+                60,
+                100
+            ],
+            "consolation_reward": "r_global_villains_alpha_201910_t4_participation",
+            "tier_rewards": {
+                "1": {
+                    "rankStart": 1,
+                    "rankEnd": 2,
+                    "rewards": [
+                        "r_ctrb_global_villains_alpha_201910_t4_rnk01_mdl1",
+                        "r_ctrb_global_villains_alpha_201910_t4_rnk01_mdl2",
+                        "r_ctrb_global_villains_alpha_201910_t4_rnk01_mdl3"
+                    ]
+                },
+                "2": {
+                    "rankStart": 3,
+                    "rankEnd": 6,
+                    "rewards": [
+                        "r_ctrb_global_villains_alpha_201910_t4_rnk02_mdl1",
+                        "r_ctrb_global_villains_alpha_201910_t4_rnk02_mdl2",
+                        "r_ctrb_global_villains_alpha_201910_t4_rnk02_mdl3"
+                    ]
+                },
+                "3": {
+                    "rankStart": 7,
+                    "rankEnd": 12,
+                    "rewards": [
+                        "r_ctrb_global_villains_alpha_201910_t4_rnk03_mdl1",
+                        "r_ctrb_global_villains_alpha_201910_t4_rnk03_mdl2",
+                        "r_ctrb_global_villains_alpha_201910_t4_rnk03_mdl3"
+                    ]
+                },
+                "4": {
+                    "rankStart": 13,
+                    "rankEnd": 24,
+                    "rewards": [
+                        "r_ctrb_global_villains_alpha_201910_t4_rnk04_mdl1",
+                        "r_ctrb_global_villains_alpha_201910_t4_rnk04_mdl2",
+                        "r_ctrb_global_villains_alpha_201910_t4_rnk04_mdl3"
+                    ]
+                }
+            },
+            "requirements": {},
+            "filters": {
+                "description": "",
+                "shortDescription": "",
+                "longDescription": "",
+                "previewDescription": "",
+                "quantity": 0,
+                "filters": {}
+            },
+            "isEvent": true
+        },
+        {
+            "raidId": "raid_beta_a",
+            "name": "S.T.R.I.K.E. Raid: Beta I",
+            "duration": 24,
+            "total_rooms": 66,
+            "total_missions": 60,
+            "description": "Earn Character Shards",
+            "details": "Recommendations:\\n- Squad Lvl 35-50+\\n- Gear Tier 6+\\n- Ability Lvl 3+",
+            "image": "Beta_Raid1",
+            "mapBgImageTopLeft": "raid_Map_TL.png",
+            "mapBgImageTopRight": "raid_Map_TR.png",
+            "mapBgImageBottomLeft": "raid_Map_BL.png",
+            "mapBgImageBottomRight": "raid_Map_BR.png",
+            "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+            "startNodePosition": {
+                "x": 1500,
+                "y": 200
+            },
+            "scrollBoundarySize": {
+                "x": 3500,
+                "y": 3500
+            },
+            "nearZoom": 6,
+            "farZoom": 11,
+            "backgroundParallaxDelta": 0.1,
+            "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_35_50",
+            "player_limit": 24,
+            "group": "beta_raids",
+            "isOperation": false,
+            "stCount": 2,
+            "stPlayerLimit": 12,
+            "stNextTeamUnlockThreshold": 0,
+            "allianceProgressText": null,
+            "strikeTeamImages": [],
+            "cost": [
+                {
+                    "res": "ave_key_event01",
+                    "amount": 14000
+                }
+            ],
+            "objectives": [],
+            "alliance_rewards": [],
+            "percent_complete_thresholds": [
+                30,
+                60,
+                100
+            ],
+            "consolation_reward": "r_beta_201907_low_participation",
+            "tier_rewards": {
+                "1": {
+                    "rankStart": 1,
+                    "rankEnd": 2,
+                    "rewards": [
+                        "r_ctrb_beta_201912_low_rnk01_mdl1",
+                        "r_ctrb_beta_201912_low_rnk01_mdl2",
+                        "r_ctrb_beta_201912_low_rnk01_mdl3"
+                    ]
+                },
+                "2": {
+                    "rankStart": 3,
+                    "rankEnd": 6,
+                    "rewards": [
+                        "r_ctrb_beta_201912_low_rnk02_mdl1",
+                        "r_ctrb_beta_201912_low_rnk02_mdl2",
+                        "r_ctrb_beta_201912_low_rnk02_mdl3"
+                    ]
+                },
+                "3": {
+                    "rankStart": 7,
+                    "rankEnd": 12,
+                    "rewards": [
+                        "r_ctrb_beta_201912_low_rnk03_mdl1",
+                        "r_ctrb_beta_201912_low_rnk03_mdl2",
+                        "r_ctrb_beta_201912_low_rnk03_mdl3"
+                    ]
+                },
+                "4": {
+                    "rankStart": 13,
+                    "rankEnd": 24,
+                    "rewards": [
+                        "r_ctrb_beta_201912_low_rnk04_mdl1",
+                        "r_ctrb_beta_201912_low_rnk04_mdl2",
+                        "r_ctrb_beta_201912_low_rnk04_mdl3"
+                    ]
+                }
+            },
+            "requirements": {},
+            "filters": {
+                "description": "",
+                "shortDescription": "",
+                "longDescription": "",
+                "previewDescription": "",
+                "quantity": 0,
+                "filters": {}
+            }
+        },
+        {
+            "raidId": "raid_beta_b",
+            "name": "S.T.R.I.K.E. Raid: Beta II",
+            "duration": 24,
+            "total_rooms": 76,
+            "total_missions": 70,
+            "description": "Earn Character Shards",
+            "details": "Recommendations:\\n- Squad Lvl 50-60+\\n- Gear Tier 8+\\n- Ability Lvl 4+",
+            "image": "Beta_Raid2",
+            "mapBgImageTopLeft": "raid_Map_TL.png",
+            "mapBgImageTopRight": "raid_Map_TR.png",
+            "mapBgImageBottomLeft": "raid_Map_BL.png",
+            "mapBgImageBottomRight": "raid_Map_BR.png",
+            "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+            "startNodePosition": {
+                "x": 1500,
+                "y": 200
+            },
+            "scrollBoundarySize": {
+                "x": 3500,
+                "y": 3700
+            },
+            "nearZoom": 6,
+            "farZoom": 11,
+            "backgroundParallaxDelta": 0.1,
+            "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_50_60",
+            "player_limit": 24,
+            "group": "beta_raids",
+            "isOperation": false,
+            "stCount": 3,
+            "stPlayerLimit": 8,
+            "stNextTeamUnlockThreshold": 0,
+            "allianceProgressText": null,
+            "strikeTeamImages": [],
+            "cost": [
+                {
+                    "res": "ave_key_event01",
+                    "amount": 14200
+                }
+            ],
+            "objectives": [],
+            "alliance_rewards": [],
+            "percent_complete_thresholds": [
+                30,
+                60,
+                100
+            ],
+            "consolation_reward": "r_beta_201907_mid_participation",
+            "tier_rewards": {
+                "1": {
+                    "rankStart": 1,
+                    "rankEnd": 2,
+                    "rewards": [
+                        "r_ctrb_beta_201912_mid_rnk01_mdl1",
+                        "r_ctrb_beta_201912_mid_rnk01_mdl2",
+                        "r_ctrb_beta_201912_mid_rnk01_mdl3"
+                    ]
+                },
+                "2": {
+                    "rankStart": 3,
+                    "rankEnd": 6,
+                    "rewards": [
+                        "r_ctrb_beta_201912_mid_rnk02_mdl1",
+                        "r_ctrb_beta_201912_mid_rnk02_mdl2",
+                        "r_ctrb_beta_201912_mid_rnk02_mdl3"
+                    ]
+                },
+                "3": {
+                    "rankStart": 7,
+                    "rankEnd": 12,
+                    "rewards": [
+                        "r_ctrb_beta_201912_mid_rnk03_mdl1",
+                        "r_ctrb_beta_201912_mid_rnk03_mdl2",
+                        "r_ctrb_beta_201912_mid_rnk03_mdl3"
+                    ]
+                },
+                "4": {
+                    "rankStart": 13,
+                    "rankEnd": 24,
+                    "rewards": [
+                        "r_ctrb_beta_201912_mid_rnk04_mdl1",
+                        "r_ctrb_beta_201912_mid_rnk04_mdl2",
+                        "r_ctrb_beta_201912_mid_rnk04_mdl3"
+                    ]
+                }
+            },
+            "requirements": {},
+            "filters": {
+                "description": "",
+                "shortDescription": "",
+                "longDescription": "",
+                "previewDescription": "",
+                "quantity": 0,
+                "filters": {}
+            }
+        },
+        {
+            "raidId": "raid_beta_c",
+            "name": "S.T.R.I.K.E. Raid: Beta III",
+            "duration": 24,
+            "total_rooms": 76,
+            "total_missions": 70,
+            "description": "Earn Character Shards",
+            "details": "Recommendations:\\n- Squad Lvl 60-65+\\n- Gear Tier 10+\\n- Ability Lvl 5+",
+            "image": "Beta_Raid3",
+            "mapBgImageTopLeft": "raid_Map_TL.png",
+            "mapBgImageTopRight": "raid_Map_TR.png",
+            "mapBgImageBottomLeft": "raid_Map_BL.png",
+            "mapBgImageBottomRight": "raid_Map_BR.png",
+            "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+            "startNodePosition": {
+                "x": 1500,
+                "y": 200
+            },
+            "scrollBoundarySize": {
+                "x": 3500,
+                "y": 3700
+            },
+            "nearZoom": 6,
+            "farZoom": 11,
+            "backgroundParallaxDelta": 0.1,
+            "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_60_65",
+            "player_limit": 24,
+            "group": "beta_raids",
+            "isOperation": false,
+            "stCount": 3,
+            "stPlayerLimit": 8,
+            "stNextTeamUnlockThreshold": 0,
+            "allianceProgressText": null,
+            "strikeTeamImages": [],
+            "cost": [
+                {
+                    "res": "ave_key_event01",
+                    "amount": 14400
+                }
+            ],
+            "objectives": [],
+            "alliance_rewards": [],
+            "percent_complete_thresholds": [
+                30,
+                60,
+                100
+            ],
+            "consolation_reward": "r_beta_201907_high_participation",
+            "tier_rewards": {
+                "1": {
+                    "rankStart": 1,
+                    "rankEnd": 2,
+                    "rewards": [
+                        "r_ctrb_beta_201912_high_rnk01_mdl1",
+                        "r_ctrb_beta_201912_high_rnk01_mdl2",
+                        "r_ctrb_beta_201912_high_rnk01_mdl3"
+                    ]
+                },
+                "2": {
+                    "rankStart": 3,
+                    "rankEnd": 6,
+                    "rewards": [
+                        "r_ctrb_beta_201912_high_rnk02_mdl1",
+                        "r_ctrb_beta_201912_high_rnk02_mdl2",
+                        "r_ctrb_beta_201912_high_rnk02_mdl3"
+                    ]
+                },
+                "3": {
+                    "rankStart": 7,
+                    "rankEnd": 12,
+                    "rewards": [
+                        "r_ctrb_beta_201912_high_rnk03_mdl1",
+                        "r_ctrb_beta_201912_high_rnk03_mdl2",
+                        "r_ctrb_beta_201912_high_rnk03_mdl3"
+                    ]
+                },
+                "4": {
+                    "rankStart": 13,
+                    "rankEnd": 24,
+                    "rewards": [
+                        "r_ctrb_beta_201912_high_rnk04_mdl1",
+                        "r_ctrb_beta_201912_high_rnk04_mdl2",
+                        "r_ctrb_beta_201912_high_rnk04_mdl3"
+                    ]
+                }
+            },
+            "requirements": {},
+            "filters": {
+                "description": "",
+                "shortDescription": "",
+                "longDescription": "",
+                "previewDescription": "",
+                "quantity": 0,
+                "filters": {}
+            }
+        },
+        {
+            "raidId": "raid_beta_d",
+            "name": "S.T.R.I.K.E. Raid: Beta IV",
+            "duration": 24,
+            "total_rooms": 76,
+            "total_missions": 70,
+            "description": "Earn Character Shards",
+            "details": "Recommendations:\\n- Squad Lvl 65+\\n- Gear Tier 11+\\n- Ability Lvl 5+\\n- Red Stars 3+",
+            "image": "Beta_Raid4",
+            "mapBgImageTopLeft": "raid_Map_TL.png",
+            "mapBgImageTopRight": "raid_Map_TR.png",
+            "mapBgImageBottomLeft": "raid_Map_BL.png",
+            "mapBgImageBottomRight": "raid_Map_BR.png",
+            "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+            "startNodePosition": {
+                "x": 1500,
+                "y": 200
+            },
+            "scrollBoundarySize": {
+                "x": 3500,
+                "y": 3700
+            },
+            "nearZoom": 6,
+            "farZoom": 11,
+            "backgroundParallaxDelta": 0.1,
+            "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_65_70",
+            "player_limit": 24,
+            "group": "beta_raids",
+            "isOperation": false,
+            "stCount": 3,
+            "stPlayerLimit": 8,
+            "stNextTeamUnlockThreshold": 0,
+            "allianceProgressText": null,
+            "strikeTeamImages": [],
+            "cost": [
+                {
+                    "res": "ave_key_event01",
+                    "amount": 14400
+                }
+            ],
+            "objectives": [],
+            "alliance_rewards": [],
+            "percent_complete_thresholds": [
+                30,
+                60,
+                100
+            ],
+            "consolation_reward": "r_beta_201907_t4_participation",
+            "tier_rewards": {
+                "1": {
+                    "rankStart": 1,
+                    "rankEnd": 2,
+                    "rewards": [
+                        "r_ctrb_beta_201912_t4_rnk01_mdl1",
+                        "r_ctrb_beta_201912_t4_rnk01_mdl2",
+                        "r_ctrb_beta_201912_t4_rnk01_mdl3"
+                    ]
+                },
+                "2": {
+                    "rankStart": 3,
+                    "rankEnd": 6,
+                    "rewards": [
+                        "r_ctrb_beta_201912_t4_rnk02_mdl1",
+                        "r_ctrb_beta_201912_t4_rnk02_mdl2",
+                        "r_ctrb_beta_201912_t4_rnk02_mdl3"
+                    ]
+                },
+                "3": {
+                    "rankStart": 7,
+                    "rankEnd": 12,
+                    "rewards": [
+                        "r_ctrb_beta_201912_t4_rnk03_mdl1",
+                        "r_ctrb_beta_201912_t4_rnk03_mdl2",
+                        "r_ctrb_beta_201912_t4_rnk03_mdl3"
+                    ]
+                },
+                "4": {
+                    "rankStart": 13,
+                    "rankEnd": 24,
+                    "rewards": [
+                        "r_ctrb_beta_201912_t4_rnk04_mdl1",
+                        "r_ctrb_beta_201912_t4_rnk04_mdl2",
+                        "r_ctrb_beta_201912_t4_rnk04_mdl3"
+                    ]
+                }
+            },
+            "requirements": {},
+            "filters": {
+                "description": "",
+                "shortDescription": "",
+                "longDescription": "",
+                "previewDescription": "",
+                "quantity": 0,
+                "filters": {}
+            }
+        },
+        {
+            "raidId": "raid_gamma_a",
+            "name": "S.T.R.I.K.E. Raid: Gamma I",
+            "duration": 24,
+            "total_rooms": 90,
+            "total_missions": 59,
+            "description": "Earn Character Shards",
+            "details": "Recommendations:\\n- Squad Lvl 35-50+\\n- Gear Tier 6+\\n- Ability Lvl 3+",
+            "image": "Gamma_Raid1",
+            "mapBgImageTopLeft": "raid_Map_TL.png",
+            "mapBgImageTopRight": "raid_Map_TR.png",
+            "mapBgImageBottomLeft": "raid_Map_BL.png",
+            "mapBgImageBottomRight": "raid_Map_BR.png",
+            "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+            "startNodePosition": {
+                "x": 750,
+                "y": 500
+            },
+            "scrollBoundarySize": {
+                "x": 5000,
+                "y": 3000
+            },
+            "nearZoom": 6,
+            "farZoom": 12,
+            "backgroundParallaxDelta": 0.1,
+            "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_35_50",
+            "player_limit": 24,
+            "group": "gamma_raids",
+            "isOperation": false,
+            "stCount": 3,
+            "stPlayerLimit": 8,
+            "stNextTeamUnlockThreshold": 0,
+            "allianceProgressText": null,
+            "strikeTeamImages": [],
+            "cost": [
+                {
+                    "res": "ave_key_event01",
+                    "amount": 14000
+                }
+            ],
+            "objectives": [],
+            "alliance_rewards": [],
+            "percent_complete_thresholds": [
+                30,
+                60,
+                100
+            ],
+            "consolation_reward": "r_biohero_201912_low_participation",
+            "tier_rewards": {
+                "1": {
+                    "rankStart": 1,
+                    "rankEnd": 2,
+                    "rewards": [
+                        "r_ctrb_biohero_201912_low_rnk01_mdl1",
+                        "r_ctrb_biohero_201912_low_rnk01_mdl2",
+                        "r_ctrb_biohero_201912_low_rnk01_mdl3"
+                    ]
+                },
+                "2": {
+                    "rankStart": 3,
+                    "rankEnd": 6,
+                    "rewards": [
+                        "r_ctrb_biohero_201912_low_rnk02_mdl1",
+                        "r_ctrb_biohero_201912_low_rnk02_mdl2",
+                        "r_ctrb_biohero_201912_low_rnk02_mdl3"
+                    ]
+                },
+                "3": {
+                    "rankStart": 7,
+                    "rankEnd": 12,
+                    "rewards": [
+                        "r_ctrb_biohero_201912_low_rnk03_mdl1",
+                        "r_ctrb_biohero_201912_low_rnk03_mdl2",
+                        "r_ctrb_biohero_201912_low_rnk03_mdl3"
+                    ]
+                },
+                "4": {
+                    "rankStart": 13,
+                    "rankEnd": 24,
+                    "rewards": [
+                        "r_ctrb_biohero_201912_low_rnk04_mdl1",
+                        "r_ctrb_biohero_201912_low_rnk04_mdl2",
+                        "r_ctrb_biohero_201912_low_rnk04_mdl3"
+                    ]
+                }
+            },
+            "requirements": {},
+            "filters": {
+                "description": "",
+                "shortDescription": "",
+                "longDescription": "",
+                "previewDescription": "",
+                "quantity": 0,
+                "filters": {}
+            }
+        },
+        {
+            "raidId": "raid_gamma_b",
+            "name": "S.T.R.I.K.E. Raid: Gamma II",
+            "duration": 24,
+            "total_rooms": 108,
+            "total_missions": 69,
+            "description": "Earn Character Shards",
+            "details": "Recommendations:\\n- Squad Lvl 50-60+\\n- Gear Tier 8+\\n- Ability Lvl 4+",
+            "image": "Gamma_Raid2",
+            "mapBgImageTopLeft": "raid_Map_TL.png",
+            "mapBgImageTopRight": "raid_Map_TR.png",
+            "mapBgImageBottomLeft": "raid_Map_BL.png",
+            "mapBgImageBottomRight": "raid_Map_BR.png",
+            "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+            "startNodePosition": {
+                "x": 750,
+                "y": 500
+            },
+            "scrollBoundarySize": {
+                "x": 5000,
+                "y": 3000
+            },
+            "nearZoom": 6,
+            "farZoom": 12,
+            "backgroundParallaxDelta": 0.1,
+            "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_50_60",
+            "player_limit": 24,
+            "group": "gamma_raids",
+            "isOperation": false,
+            "stCount": 3,
+            "stPlayerLimit": 8,
+            "stNextTeamUnlockThreshold": 0,
+            "allianceProgressText": null,
+            "strikeTeamImages": [],
+            "cost": [
+                {
+                    "res": "ave_key_event01",
+                    "amount": 14200
+                }
+            ],
+            "objectives": [],
+            "alliance_rewards": [],
+            "percent_complete_thresholds": [
+                30,
+                60,
+                100
+            ],
+            "consolation_reward": "r_biohero_201912_mid_participation",
+            "tier_rewards": {
+                "1": {
+                    "rankStart": 1,
+                    "rankEnd": 2,
+                    "rewards": [
+                        "r_ctrb_biohero_201912_mid_rnk01_mdl1",
+                        "r_ctrb_biohero_201912_mid_rnk01_mdl2",
+                        "r_ctrb_biohero_201912_mid_rnk01_mdl3"
+                    ]
+                },
+                "2": {
+                    "rankStart": 3,
+                    "rankEnd": 6,
+                    "rewards": [
+                        "r_ctrb_biohero_201912_mid_rnk02_mdl1",
+                        "r_ctrb_biohero_201912_mid_rnk02_mdl2",
+                        "r_ctrb_biohero_201912_mid_rnk02_mdl3"
+                    ]
+                },
+                "3": {
+                    "rankStart": 7,
+                    "rankEnd": 12,
+                    "rewards": [
+                        "r_ctrb_biohero_201912_mid_rnk03_mdl1",
+                        "r_ctrb_biohero_201912_mid_rnk03_mdl2",
+                        "r_ctrb_biohero_201912_mid_rnk03_mdl3"
+                    ]
+                },
+                "4": {
+                    "rankStart": 13,
+                    "rankEnd": 24,
+                    "rewards": [
+                        "r_ctrb_biohero_201912_mid_rnk04_mdl1",
+                        "r_ctrb_biohero_201912_mid_rnk04_mdl2",
+                        "r_ctrb_biohero_201912_mid_rnk04_mdl3"
+                    ]
+                }
+            },
+            "requirements": {},
+            "filters": {
+                "description": "",
+                "shortDescription": "",
+                "longDescription": "",
+                "previewDescription": "",
+                "quantity": 0,
+                "filters": {}
+            }
+        },
+        {
+            "raidId": "raid_gamma_c",
+            "name": "S.T.R.I.K.E. Raid: Gamma III",
+            "duration": 24,
+            "total_rooms": 108,
+            "total_missions": 69,
+            "description": "Earn Character Shards",
+            "details": "Recommendations:\\n- Squad Lvl 60-65+\\n- Gear Tier 10+\\n- Ability Lvl 5+",
+            "image": "Gamma_Raid3",
+            "mapBgImageTopLeft": "raid_Map_TL.png",
+            "mapBgImageTopRight": "raid_Map_TR.png",
+            "mapBgImageBottomLeft": "raid_Map_BL.png",
+            "mapBgImageBottomRight": "raid_Map_BR.png",
+            "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+            "startNodePosition": {
+                "x": 750,
+                "y": 500
+            },
+            "scrollBoundarySize": {
+                "x": 5000,
+                "y": 3000
+            },
+            "nearZoom": 6,
+            "farZoom": 12,
+            "backgroundParallaxDelta": 0.1,
+            "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_60_65",
+            "player_limit": 24,
+            "group": "gamma_raids",
+            "isOperation": false,
+            "stCount": 3,
+            "stPlayerLimit": 8,
+            "stNextTeamUnlockThreshold": 0,
+            "allianceProgressText": null,
+            "strikeTeamImages": [],
+            "cost": [
+                {
+                    "res": "ave_key_event01",
+                    "amount": 14400
+                }
+            ],
+            "objectives": [],
+            "alliance_rewards": [],
+            "percent_complete_thresholds": [
+                30,
+                60,
+                100
+            ],
+            "consolation_reward": "r_biohero_201912_high_participation",
+            "tier_rewards": {
+                "1": {
+                    "rankStart": 1,
+                    "rankEnd": 2,
+                    "rewards": [
+                        "r_ctrb_biohero_201912_high_rnk01_mdl1",
+                        "r_ctrb_biohero_201912_high_rnk01_mdl2",
+                        "r_ctrb_biohero_201912_high_rnk01_mdl3"
+                    ]
+                },
+                "2": {
+                    "rankStart": 3,
+                    "rankEnd": 6,
+                    "rewards": [
+                        "r_ctrb_biohero_201912_high_rnk02_mdl1",
+                        "r_ctrb_biohero_201912_high_rnk02_mdl2",
+                        "r_ctrb_biohero_201912_high_rnk02_mdl3"
+                    ]
+                },
+                "3": {
+                    "rankStart": 7,
+                    "rankEnd": 12,
+                    "rewards": [
+                        "r_ctrb_biohero_201912_high_rnk03_mdl1",
+                        "r_ctrb_biohero_201912_high_rnk03_mdl2",
+                        "r_ctrb_biohero_201912_high_rnk03_mdl3"
+                    ]
+                },
+                "4": {
+                    "rankStart": 13,
+                    "rankEnd": 24,
+                    "rewards": [
+                        "r_ctrb_biohero_201912_high_rnk04_mdl1",
+                        "r_ctrb_biohero_201912_high_rnk04_mdl2",
+                        "r_ctrb_biohero_201912_high_rnk04_mdl3"
+                    ]
+                }
+            },
+            "requirements": {},
+            "filters": {
+                "description": "",
+                "shortDescription": "",
+                "longDescription": "",
+                "previewDescription": "",
+                "quantity": 0,
+                "filters": {}
+            }
+        },
+        {
+            "raidId": "raid_gamma_d",
+            "name": "S.T.R.I.K.E. Raid: Gamma IV",
+            "duration": 24,
+            "total_rooms": 108,
+            "total_missions": 69,
+            "description": "Earn Character Shards",
+            "details": "Recommendations:\\n- Squad Lvl 65+\\n- Gear Tier 11+\\n- Ability Lvl 5+\\n- Red Stars 3+",
+            "image": "Gamma_Raid4",
+            "mapBgImageTopLeft": "raid_Map_TL.png",
+            "mapBgImageTopRight": "raid_Map_TR.png",
+            "mapBgImageBottomLeft": "raid_Map_BL.png",
+            "mapBgImageBottomRight": "raid_Map_BR.png",
+            "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+            "startNodePosition": {
+                "x": 750,
+                "y": 500
+            },
+            "scrollBoundarySize": {
+                "x": 5000,
+                "y": 3000
+            },
+            "nearZoom": 6,
+            "farZoom": 12,
+            "backgroundParallaxDelta": 0.1,
+            "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_65_70",
+            "player_limit": 24,
+            "group": "gamma_raids",
+            "isOperation": false,
+            "stCount": 3,
+            "stPlayerLimit": 8,
+            "stNextTeamUnlockThreshold": 0,
+            "allianceProgressText": null,
+            "strikeTeamImages": [],
+            "cost": [
+                {
+                    "res": "ave_key_event01",
+                    "amount": 14400
+                }
+            ],
+            "objectives": [],
+            "alliance_rewards": [],
+            "percent_complete_thresholds": [
+                30,
+                60,
+                100
+            ],
+            "consolation_reward": "r_biohero_201912_t4_participation",
+            "tier_rewards": {
+                "1": {
+                    "rankStart": 1,
+                    "rankEnd": 2,
+                    "rewards": [
+                        "r_ctrb_biohero_201912_t4_rnk01_mdl1",
+                        "r_ctrb_biohero_201912_t4_rnk01_mdl2",
+                        "r_ctrb_biohero_201912_t4_rnk01_mdl3"
+                    ]
+                },
+                "2": {
+                    "rankStart": 3,
+                    "rankEnd": 6,
+                    "rewards": [
+                        "r_ctrb_biohero_201912_t4_rnk02_mdl1",
+                        "r_ctrb_biohero_201912_t4_rnk02_mdl2",
+                        "r_ctrb_biohero_201912_t4_rnk02_mdl3"
+                    ]
+                },
+                "3": {
+                    "rankStart": 7,
+                    "rankEnd": 12,
+                    "rewards": [
+                        "r_ctrb_biohero_201912_t4_rnk03_mdl1",
+                        "r_ctrb_biohero_201912_t4_rnk03_mdl2",
+                        "r_ctrb_biohero_201912_t4_rnk03_mdl3"
+                    ]
+                },
+                "4": {
+                    "rankStart": 13,
+                    "rankEnd": 24,
+                    "rewards": [
+                        "r_ctrb_biohero_201912_t4_rnk04_mdl1",
+                        "r_ctrb_biohero_201912_t4_rnk04_mdl2",
+                        "r_ctrb_biohero_201912_t4_rnk04_mdl3"
+                    ]
+                }
+            },
+            "requirements": {},
+            "filters": {
+                "description": "",
+                "shortDescription": "",
+                "longDescription": "",
+                "previewDescription": "",
+                "quantity": 0,
+                "filters": {}
+            }
+        },
+        {
+            "raidId": "raid_delta_c",
+            "name": "S.T.R.I.K.E. Raid: Delta III",
+            "duration": 24,
+            "total_rooms": 110,
+            "total_missions": 61,
+            "description": "Earn Character Shards",
+            "details": "Recommendations:\\n- Squad Lvl 60-65+\\n- Gear Tier 10+\\n- Ability Lvl 5+",
+            "image": null,
+            "mapBgImageTopLeft": "raid_Map_TL.png",
+            "mapBgImageTopRight": "raid_Map_TR.png",
+            "mapBgImageBottomLeft": "raid_Map_BL.png",
+            "mapBgImageBottomRight": "raid_Map_BR.png",
+            "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+            "startNodePosition": {
+                "x": 1100,
+                "y": 900
+            },
+            "scrollBoundarySize": {
+                "x": 4500,
+                "y": 4000
+            },
+            "nearZoom": 4,
+            "farZoom": 12,
+            "backgroundParallaxDelta": 0.1,
+            "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_60_65",
+            "player_limit": 24,
+            "group": "test_raids",
+            "isOperation": false,
+            "stCount": 3,
+            "stPlayerLimit": 8,
+            "stNextTeamUnlockThreshold": 0,
+            "allianceProgressText": null,
+            "strikeTeamImages": [],
+            "cost": [],
+            "objectives": [],
+            "alliance_rewards": [],
+            "percent_complete_thresholds": [],
+            "consolation_reward": "",
+            "tier_rewards": {},
+            "requirements": {},
+            "filters": {
+                "description": "",
+                "shortDescription": "",
+                "longDescription": "",
+                "previewDescription": "",
+                "quantity": 0,
+                "filters": {}
+            }
+        },
+        {
+            "raidId": "raid_boss_test",
+            "name": "S.T.R.I.K.E. Raid: Beta III",
+            "duration": 24,
+            "total_rooms": 89,
+            "total_missions": 18,
+            "description": "Earn Character Shards",
+            "details": "Recommendations:\\n- Squad Lvl 60-65+\\n- Gear Tier 10+\\n- Ability Lvl 5+",
+            "image": "Beta_Raid3",
+            "mapBgImageTopLeft": "raid_Map_TL.png",
+            "mapBgImageTopRight": "raid_Map_TR.png",
+            "mapBgImageBottomLeft": "raid_Map_BL.png",
+            "mapBgImageBottomRight": "raid_Map_BR.png",
+            "mapOverlayPrefabName": "VFX_Ui_Raids_Bg_Clouds_Prefab",
+            "startNodePosition": {
+                "x": 1000,
+                "y": 800
+            },
+            "scrollBoundarySize": {
+                "x": 4000,
+                "y": 4000
+            },
+            "nearZoom": 4,
+            "farZoom": 10,
+            "backgroundParallaxDelta": 0.5,
+            "recommendedPlayerLevel": "ID_RECOMMEND_LEVEL_RANGE_60_65",
+            "player_limit": 24,
+            "group": "test_raids",
+            "isOperation": false,
+            "stCount": 3,
+            "stPlayerLimit": 8,
+            "stNextTeamUnlockThreshold": 0,
+            "allianceProgressText": null,
+            "strikeTeamImages": [],
+            "cost": [],
+            "objectives": [],
+            "alliance_rewards": [],
+            "percent_complete_thresholds": [],
+            "consolation_reward": "",
+            "tier_rewards": {},
+            "requirements": {},
+            "filters": {
+                "description": "",
+                "shortDescription": "",
+                "longDescription": "",
+                "previewDescription": "",
+                "quantity": 0,
+                "filters": {}
+            }
+        }
+    ],
+    "Groups": [
+        {
+            "id": "hydra_raids",
+            "name": "ID_RAIDS_ULTIMUS_RAIDS",
+            "details": "ID_RAIDS_ULTIMUS_RAIDS_DETAILS",
+            "description": "ID_RAIDS_ULTIMUS_RAIDS_DESC",
+            "image": "Ultimus",
+            "recommendedPlayerLevel": "",
+            "isEvent": false
+        },
+        {
+            "id": "alpha_raids",
+            "name": "ID_RAIDS_ALPHA_RAIDS_NAME",
+            "details": "ID_RAIDS_ALPHA_RAIDS_DETAILS",
+            "description": "ID_RAIDS_ALPHA_RAIDS_DESC",
+            "image": "Alpha",
+            "recommendedPlayerLevel": null,
+            "isEvent": true
+        },
+        {
+            "id": "beta_raids",
+            "name": "ID_RAIDS_BETA_RAIDS_NAME",
+            "details": "ID_RAIDS_BETA_RAIDS_DETAILS",
+            "description": "ID_RAIDS_BETA_RAIDS_DESC",
+            "image": "Beta",
+            "recommendedPlayerLevel": null,
+            "isEvent": true
+        },
+        {
+            "id": "gamma_raids",
+            "name": "ID_RAIDS_GAMMA_RAIDS_NAME",
+            "details": "ID_RAIDS_GAMMA_RAIDS_DETAILS",
+            "description": "ID_RAIDS_GEN_02_C_DESC",
+            "image": "Gamma",
+            "recommendedPlayerLevel": null,
+            "isEvent": true
+        },
+        {
+            "id": "delta_raids",
+            "name": "ID_RAIDS_DELTA_RAIDS_NAME",
+            "details": "ID_RAIDS_DELTA_RAIDS_DESC",
+            "description": "ID_RAIDS_DELTA_RAIDS_DETAILS",
+            "image": "Delta",
+            "recommendedPlayerLevel": null,
+            "isEvent": true
+        },
+        {
+            "id": "test_raids",
+            "name": "ID_RAIDS_ULTIMUS_RAIDS",
+            "details": "ID_RAIDS_THANOS_RAIDS_DETAILS",
+            "description": "ID_RAIDS_DEADPOOL_RAIDS_DESC",
+            "image": "Deadpool",
+            "recommendedPlayerLevel": null,
+            "isEvent": true
+        },
+        {
+            "id": "deprecated_raids",
+            "name": "ID_RAIDS_THANOS_RAIDS",
+            "details": "ID_RAIDS_DEADPOOL_RAIDS_DETAILS",
+            "description": "ID_RAIDS_ULTIMUS_RAIDS_DESC",
+            "image": "Thanos",
+            "recommendedPlayerLevel": null,
+            "isEvent": true
+        },
+        {
+            "id": "thanos_raids",
+            "name": "ID_RAIDS_THANOS_RAIDS",
+            "details": "ID_RAIDS_THANOS_RAIDS_DETAILS",
+            "description": "ID_RAIDS_THANOS_RAIDS_DESC",
+            "image": "Thanos",
+            "recommendedPlayerLevel": "",
+            "isEvent": true
+        },
+        {
+            "id": "ultimus_event_raids",
+            "name": "ID_RAIDS_ULTIMUS_EVENT_RAIDS",
+            "details": "ID_RAIDS_ULTIMUS_EVENT_RAIDS_DETAILS",
+            "description": "ID_RAIDS_ULTIMUS_EVENT_RAIDS_DESC",
+            "image": "Ultimus_Event_Raid",
+            "recommendedPlayerLevel": null,
+            "isEvent": true
+        }
+    ]
+}

@@ -4,22 +4,22 @@
         "team": ["ScientistSupreme", "AimTank_Taunt", "any", "Graviton", "AimDmg_Speed"],
         "hard": [
             {
-                "name": "",
+                "name": "DEFENDERS",
                 "percent": 0.10,
                 "team": ["LukeCage", "Daredevil", "IronFist", "JessicaJones", "Punisher"]
             },
             {
-                "name": "",
+                "name": "FANTASTIC4",
                 "percent": 0.10,
                 "team": ["Thing", "MrFantastic", "InvisibleWoman", "HumanTorch", "Namor"]
             },
             {
-                "name": "",
+                "name": "X-MEN",
                 "percent": 0.15,
                 "team": ["Colossus", "Phoenix", "Psylocke", "Storm", "Wolverine"]
             },
             {
-                "name": "",
+                "name": "GUARDIANS",
                 "percent": 0.10,
                 "team": ["StarLord", "RocketRaccoon", "Groot", "Mantis", "Drax"]
             }
@@ -30,19 +30,19 @@
         "team": ["ScientistSupreme", "AimTank_Taunt", "Ultron", "Graviton", "AimDmg_Speed"],
         "hard": [
             {
-                "name": "",
+                "name": "FANTASTIC4",
                 "percent": 0.15,
                 "team": ["Thing", "MrFantastic", "InvisibleWoman", "HumanTorch", "Namor"]
             }
         ],
         "soft": [
             {
-                "name": "",
+                "name": "POWER ARMOR",
                 "percent": 0.00,
                 "team": ["WarMachine", "Falcon", "IronMan", "Vision", "Rescue"]
             },
             {
-                "name": "",
+                "name": "DEFENDERS",
                 "percent": 0.15,
                 "team": ["LukeCage", "Daredevil", "JessicaJones", "IronFist", "Punisher"]
             }
@@ -52,24 +52,24 @@
         "team": ["Sif", "Thor", "Hela", "Heimdall", "Loki"],
         "hard": [
             {
-                "name": "",
+                "name": "AIM",
                 "percent": 0.10,
                 "team": ["ScientistSupreme", "AimTank_Taunt", "Ultron", "Graviton", "AimDmg_Speed"]
             }
         ],
         "soft": [
             {
-                "name": "",
+                "name": "FANTASTIC4",
                 "percent": 0.10,
                 "team": ["Thing", "MrFantastic", "InvisibleWoman", "HumanTorch", "Namor"]
             },
             {
-                "name": "",
+                "name": "RANDOM",
                 "percent": 0.10,
                 "team": ["Kingpin", "Ultimus", "Minerva", "Korath", "KreeDmg_Offense"]
             },
             {
-                "name": "",
+                "name": "RANDOM",
                 "percent": 0.10,
                 "team": ["Drax", "any", "InvisibleWoman", "HumanTorch", "Namor"]
             }
@@ -79,22 +79,22 @@
         "team": ["AntMan", "BlackWidow", "CaptainAmerica", "Hawkeye", "Hulk"],
         "hard": [
             {
-                "name": "",
+                "name": "AVENGERS",
                 "percent": 0.00,
                 "team": ["AntMan", "BlackWidow", "CaptainAmerica", "Hawkeye", "Hulk"]
             },
             {
-                "name": "",
+                "name": "WAKANDANS",
                 "percent": 0.15,
                 "team": ["MBaku", "BlackPanther", "Shuri", "Killmonger", "Okoye"]
             },
             {
-                "name": "",
+                "name": "FANTASTIC4",
                 "percent": 0.25,
                 "team": ["Thing", "MrFantastic", "InvisibleWoman", "HumanTorch", "Namor"]
             },
             {
-                "name": "",
+                "name": "SHIELD",
                 "percent": 0.25,
                 "team": ["ShieldTank_Stun", "ShieldDmg_Defense", "NickFury", "ShieldSupport_Heal", "ShieldDmg_AoE"]
             }
@@ -105,22 +105,22 @@
         "team": ["Groot", "StarLord", "RocketRaccoon", "Thanos", "Minerva"],
         "hard": [
             {
-                "name": "",
+                "name": "POWER ARMOR",
                 "percent": 0.15,
                 "team": ["WarMachine", "Falcon", "IronMan", "Vision", "Rescue"]
             },
             {
-                "name": "",
+                "name": "FANTASTIC4",
                 "percent": 0.15,
                 "team": ["Thing", "MrFantastic", "InvisibleWoman", "HumanTorch", "Namor"]
             },
             {
-                "name": "",
+                "name": "X-MEN",
                 "percent": 0.15,
                 "team": ["Colossus", "Phoenix", "Psylocke", "Storm", "Wolverine"]
             },
             {
-                "name": "",
+                "name": "BKT",
                 "percent": 0.10,
                 "team": ["Groot", "StarLord", "RocketRaccoon", "Thanos", "Minerva"]
             }
@@ -131,22 +131,22 @@
         "team": ["MsMarvel", "Gamora", "AmericaChavez", "SpiderMan", "UltSpiderMan"],
         "hard": [
             {
-                "name": "",
+                "name": "WAKANDANS",
                 "percent": 0.15,
                 "team": ["MBaku", "BlackPanther", "Shuri", "Killmonger", "Okoye"]
             },
             {
-                "name": "",
+                "name": "SUPERNATURAL",
                 "percent": 0.15,
                 "team": ["GhostRider", "ScarletWitch", "ElsaBloodstone", "BaronMordo", "DoctorStrange"]
             },
             {
-                "name": "",
+                "name": "X-MEN",
                 "percent": 0.25,
                 "team": ["Colossus", "Phoenix", "Psylocke", "Storm", "Wolverine"]
             },
             {
-                "name": "",
+                "name": "GUARDIANS",
                 "percent": 0.15,
                 "team": ["StarLord", "RocketRaccoon", "Groot", "Mantis", "Drax"]
             }
@@ -157,24 +157,24 @@
         "team": ["Sabretooth", "Mystique", "Magneto", "Juggernaut", "Pyro"],
         "hard": [
             {
-                "name": "",
+                "name": "BRAWLERS",
                 "percent": 0.15,
                 "team": ["MsMarvel", "Gamora", "AmericaChavez", "SpiderMan", "UltSpiderMan"]
             },
             {
-                "name": "",
+                "name": "X-MEN",
                 "percent": 0.25,
                 "team": ["Colossus", "Phoenix", "Psylocke", "Storm", "Wolverine"]
             },
             {
-                "name": "",
+                "name": "AIM",
                 "percent": 0.15,
                 "team": ["ScientistSupreme", "AimTank_Taunt", "any", "Graviton", "AimDmg_Speed"]
             }
         ],
         "soft": [
             {
-                "name": "",
+                "name": "DEFENDERS",
                 "percent": 0.05,
                 "team": ["LukeCage", "Daredevil", "JessicaJones", "IronFist", "Punisher"]
             }
@@ -184,19 +184,19 @@
         "team": ["Hulk", "Hawkeye", "CaptainAmerica", "CaptainMarvel", "BlackWidow"],
         "hard": [
             {
-                "name": "",
+                "name": "POWER ARMOR",
                 "percent": 0.15,
                 "team": ["WarMachine", "Falcon", "IronMan", "Vision", "Rescue"]
             },
             {
-                "name": "",
+                "name": "FANTASTIC4",
                 "percent": 0.15,
                 "team": ["Thing", "MrFantastic", "InvisibleWoman", "HumanTorch", "Namor"]
             }
         ],
         "soft": [
             {
-                "name": "",
+                "name": "BROTHERHOOD",
                 "percent": 0.00,
                 "team": ["Pyro", "Venom", "Magneto", "Juggernaut", "Carnage"]
             }
@@ -206,14 +206,14 @@
         "team": ["CaptainMarvel", "Deadpool", "AmericaChavez", "SpiderMan", "MsMarvel"],
         "hard": [
             {
-                "name": "",
+                "name": "FANTASTIC4",
                 "percent": 0.15,
                 "team": ["Thing", "MrFantastic", "InvisibleWoman", "HumanTorch", "Namor"]
             }
         ],
         "soft": [
             {
-                "name": "",
+                "name": "BROTHERHOOD",
                 "percent": 0.15,
                 "team": ["Pyro", "Venom", "Magneto", "Juggernaut", "Carnage"]
             }
@@ -223,22 +223,22 @@
         "team": ["LukeCage", "Daredevil", "JessicaJones", "IronFist", "Punisher"],
         "hard": [
             {
-                "name": "",
+                "name": "BRAWLERS",
                 "percent": 0.00,
                 "team": ["MsMarvel", "Gamora", "AmericaChavez", "SpiderMan", "UltSpiderMan"]
             },
             {
-                "name": "",
+                "name": "SHIELD",
                 "percent": 0.20,
                 "team": ["ShieldTank_Stun", "ShieldDmg_Defense", "NickFury", "ShieldSupport_Heal", "ShieldDmg_AoE"]
             },
             {
-                "name": "",
+                "name": "X-MEN",
                 "percent": 0.30,
                 "team": ["Colossus", "Phoenix", "Psylocke", "Storm", "Wolverine"]
             },
             {
-                "name": "",
+                "name": "BKT",
                 "percent": 0.15,
                 "team": ["Groot", "StarLord", "RocketRaccoon", "Thanos", "Minerva"]
             }
@@ -250,12 +250,12 @@
         "hard": [],
         "soft": [
             {
-                "name": "",
+                "name": "FANTASTIC4",
                 "percent": 0.05,
                 "team": ["Thing", "MrFantastic", "InvisibleWoman", "HumanTorch", "Namor"]
             },
             {
-                "name": "",
+                "name": "POWER ARMOR",
                 "percent": 0.05,
                 "team": ["WarMachine", "Falcon", "IronMan", "Vision", "Rescue"]
             }
@@ -265,22 +265,22 @@
         "team": ["StarLord", "RocketRaccoon", "Groot", "Mantis", "Drax"],
         "hard": [
             {
-                "name": "",
+                "name": "WAKANDANS",
                 "percent": 0.15,
                 "team": ["MBaku", "BlackPanther", "Shuri", "Killmonger", "Okoye"]
             },
             {
-                "name": "",
+                "name": "POWER ARMOR",
                 "percent": 0.15,
                 "team": ["WarMachine", "Falcon", "IronMan", "Vision", "Rescue"]
             },
             {
-                "name": "",
+                "name": "X-MEN",
                 "percent": 0.30,
                 "team": ["Colossus", "Phoenix", "Psylocke", "Storm", "Wolverine"]
             },
             {
-                "name": "",
+                "name": "BROTHERHOOD",
                 "percent": 0.15,
                 "team": ["Pyro", "Venom", "Magneto", "Juggernaut", "Carnage"]
             }
@@ -292,7 +292,7 @@
         "hard": [],
         "soft": [
             {
-                "name": "",
+                "name": "MERCENARY",
                 "percent": 0.15,
                 "team": ["Bullseye", "MercSupport_Buffs", "MercDmg_General", "MercDmg_Single", "MercTank_Taunt"]
             }
@@ -302,29 +302,29 @@
         "team": ["HydraTank_Taunt", "HydraDmg_Single", "RedSkull", "HydraDmg_Buff", "HydraSupport_Heal"],
         "hard": [
             {
-                "name": "",
+                "name": "INHUMANS",
                 "percent": 0.20,
                 "team": ["Quake", "YoYo", "BlackBolt", "Karnak", "Crystal"]
             },
             {
-                "name": "",
+                "name": "ULTRON",
                 "percent": -0.10,
                 "team": ["UltronDmg_Defense", "UltronDmg_Offense", "Ultron", "UltronDmg_Speed", "UltronSupport_Heal"]
             }
         ],
         "soft": [
             {
-                "name": "",
+                "name": "BKT",
                 "percent": 0.40,
                 "team": ["Groot", "StarLord", "RocketRaccoon", "Thanos", "Minerva"]
             },
             {
-                "name": "",
+                "name": "WAKANDANS",
                 "percent": 0.75,
                 "team": ["MBaku", "BlackPanther", "Shuri", "Killmonger", "Okoye"]
             },
             {
-                "name": "",
+                "name": "X-MEN",
                 "percent": 0.75,
                 "team": ["Colossus", "Phoenix", "Cyclops", "Storm", "Wolverine"]
             }
@@ -334,14 +334,14 @@
         "team": ["Quake", "YoYo", "BlackBolt", "Karnak", "Crystal"],
         "hard": [
             {
-                "name": "",
+                "name": "FANTASTIC4",
                 "percent": 0.00,
                 "team": ["Thing", "MrFantastic", "InvisibleWoman", "HumanTorch", "Namor"]
             }
         ],
         "soft": [
             {
-                "name": "",
+                "name": "SUPERNATURAL",
                 "percent": 0.20,
                 "team": ["GhostRider", "ScarletWitch", "ElsaBloodstone", "BaronMordo", "DoctorStrange"]
             }
@@ -351,24 +351,29 @@
         "team": ["Ronan", "KreeSupport_HoT", "KreeDmg_Speed", "KreeControl_Assist", "KreeTank_Counter"],
         "hard": [
             {
-                "name": "",
+                "name": "DEFENDERS",
                 "percent": 0.15,
                 "team": ["LukeCage", "Daredevil", "JessicaJones", "IronFist", "Punisher"]
             },
             {
-                "name": "",
+                "name": "ULTRON",
                 "percent": 0.30,
                 "team": ["UltronDmg_Defense", "UltronDmg_Offense", "Ultron", "UltronDmg_Speed", "UltronSupport_Heal"]
             },
             {
-                "name": "",
+                "name": "X-MEN",
                 "percent": 0.30,
                 "team": ["Colossus", "Phoenix", "Psylocke", "Storm", "Wolverine"]
+            },
+            {
+                "name": "AIM",
+                "percent": 0.15,
+                "team": ["ScientistSupreme", "AimTank_Taunt", "any", "Graviton", "AimDmg_Speed"]
             }
         ],
         "soft": [
             {
-                "name": "",
+                "name": "BRAWLERS",
                 "percent": 0.00,
                 "team": ["MsMarvel", "Gamora", "AmericaChavez", "SpiderMan", "UltSpiderMan"]
             }
@@ -378,24 +383,24 @@
         "team": ["MrSinister", "Mystique", "any", "Sabretooth", "Stryfe"],
         "hard": [
             {
-                "name": "",
+                "name": "DEFENDERS",
                 "percent": 0.05,
                 "team": ["LukeCage", "Daredevil", "JessicaJones", "IronFist", "Punisher"]
             },
             {
-                "name": "",
+                "name": "FANTASTIC4",
                 "percent": 0.15,
                 "team": ["Thing", "MrFantastic", "InvisibleWoman", "HumanTorch", "Namor"]
             },
             {
-                "name": "",
+                "name": "ULTRON",
                 "percent": 0.15,
                 "team": ["UltronDmg_Defense", "UltronDmg_Offense", "Ultron", "UltronDmg_Speed", "UltronSupport_Heal"]
             }
         ],
         "soft": [
             {
-                "name": "",
+                "name": "AIM",
                 "percent": 0.10,
                 "team": ["ScientistSupreme", "AimTank_Taunt", "any", "Graviton", "AimDmg_Speed"]
             }
@@ -405,12 +410,12 @@
         "team": ["Mystique", "MrSinister", "Ultron", "Sabretooth", "Stryfe"],
         "hard": [
             {
-                "name": "",
+                "name": "FANTASTIC4",
                 "percent": 0.10,
                 "team": ["Thing", "MrFantastic", "InvisibleWoman", "HumanTorch", "Namor"]
             },
             {
-                "name": "",
+                "name": "POWER ARMOR",
                 "percent": 0.10,
                 "team": ["WarMachine", "Falcon", "IronMan", "Vision", "Rescue"]
             }
@@ -421,17 +426,17 @@
         "team": ["Loki", "BaronMordo", "Quake", "DoctorStrange", "ScarletWitch"],
         "hard": [
             {
-                "name": "",
+                "name": "MYSTIC CONTROLLERS",
                 "percent": 0.10,
                 "team": ["Loki", "BaronMordo", "Quake", "DoctorStrange", "ScarletWitch"]
             },
             {
-                "name": "",
+                "name": "KREE",
                 "percent": 0.15,
                 "team": ["Ronan", "KreeSupport_HoT", "KreeDmg_Speed", "KreeControl_Assist", "KreeTank_Counter"]
             },
             {
-                "name": "",
+                "name": "SPIDERVERSE",
                 "percent": 0.15,
                 "team": ["UltGreenGoblin", "Venom", "UltSpiderMan", "Carnage", "SpiderMan"]
             }
@@ -442,22 +447,22 @@
         "team": ["WarMachine", "Falcon", "IronMan", "Vision", "Rescue"],
         "hard": [
             {
-                "name": "",
+                "name": "BROTHERHOOD",
                 "percent": 0.15,
                 "team": ["Sabretooth", "Mystique", "Magneto", "Juggernaut", "Pyro"]
             },
             {
-                "name": "",
+                "name": "SPIDERVERSE",
                 "percent": 0.05,
                 "team": ["UltGreenGoblin", "Venom", "UltSpiderMan", "Carnage", "SpiderMan"]
             },
             {
-                "name": "",
+                "name": "AIM",
                 "percent": 0.15,
                 "team": ["ScientistSupreme", "AimTank_Taunt", "any", "Graviton", "AimDmg_Speed"]
             },
             {
-                "name": "",
+                "name": "GUARDIANS",
                 "percent": 0.10,
                 "team": ["StarLord", "RocketRaccoon", "Groot", "Mantis", "Drax"]
             }
@@ -468,22 +473,22 @@
         "team": ["ShieldTank_Stun", "ShieldDmg_Defense", "NickFury", "ShieldSupport_Heal", "ShieldDmg_AoE"],
         "hard": [
             {
-                "name": "",
+                "name": "BROTHERHOOD",
                 "percent": 0.15,
                 "team": ["Sabretooth", "Mystique", "Magneto", "Juggernaut", "Pyro"]
             },
             {
-                "name": "",
+                "name": "POWER ARMOR",
                 "percent": 0.15,
                 "team": ["WarMachine", "Falcon", "IronMan", "Vision", "Rescue"]
             },
             {
-                "name": "",
+                "name": "FANTASTIC4",
                 "percent": 0.15,
                 "team": ["Thing", "MrFantastic", "InvisibleWoman", "HumanTorch", "Namor"]
             },
             {
-                "name": "",
+                "name": "SUPERNATURAL",
                 "percent": 0.15,
                 "team": ["GhostRider", "ScarletWitch", "ElsaBloodstone", "BaronMordo", "DoctorStrange"]
             }
@@ -494,24 +499,24 @@
         "team": ["ShieldTank_Stun", "ShieldSupport_Heal", "Coulson", "NickFury", "ShieldDmg_AoE"],
         "hard": [
             {
-                "name": "",
+                "name": "X-MEN",
                 "percent": 0.10,
                 "team": ["Colossus", "Phoenix", "Psylocke", "Storm", "Wolverine"]
             }
         ],
         "soft": [
             {
-                "name": "",
+                "name": "SUPERNATURAL",
                 "percent": 0.15,
                 "team": ["GhostRider", "ScarletWitch", "ElsaBloodstone", "BaronMordo", "DoctorStrange"]
             },
             {
-                "name": "",
+                "name": "FANTASTIC4",
                 "percent": 0.15,
                 "team": ["Thing", "MrFantastic", "InvisibleWoman", "HumanTorch", "Namor"]
             },
             {
-                "name": "",
+                "name": "BROTHERHOOD",
                 "percent": 0.15,
                 "team": ["Sabretooth", "Mystique", "Magneto", "Juggernaut", "Pyro"]
             }
@@ -521,7 +526,7 @@
         "team": ["Vulture", "UltGreenGoblin", "Rhino", "Mysterio", "Shocker"],
         "hard": [
             {
-                "name": "",
+                "name": "SUPERNATURAL",
                 "percent": 0.15,
                 "team": ["GhostRider", "ScarletWitch", "ElsaBloodstone", "BaronMordo", "DoctorStrange"]
             },
@@ -531,14 +536,14 @@
                 "team": ["Loki", "Thor", "Mystique", "Carnage", "Hela"]
             },
             {
-                "name": "",
+                "name": "ULTRON",
                 "percent": 0.15,
                 "team": ["UltronDmg_Defense", "UltronDmg_Offense", "Ultron", "UltronDmg_Speed", "UltronSupport_Heal"]
             }
         ],
         "soft": [
             {
-                "name": "",
+                "name": "SINISTER6",
                 "percent": 0.00,
                 "team": ["Vulture", "UltGreenGoblin", "Rhino", "Mysterio", "Shocker"]
             }
@@ -548,22 +553,22 @@
         "team": ["UltGreenGoblin", "Venom", "UltSpiderMan", "Carnage", "SpiderMan"],
         "hard": [
             {
-                "name": "",
+                "name": "DEFENDERS",
                 "percent": 0.15,
                 "team": ["LukeCage", "Daredevil", "JessicaJones", "IronFist", "Punisher"]
             },
             {
-                "name": "",
+                "name": "BRAWLERS",
                 "percent": 0.15,
                 "team": ["MsMarvel", "Gamora", "AmericaChavez", "SpiderMan", "UltSpiderMan"]
             },
             {
-                "name": "",
+                "name": "FANTASTIC4",
                 "percent": 0.30,
                 "team": ["Thing", "MrFantastic", "InvisibleWoman", "HumanTorch", "Namor"]
             },
             {
-                "name": "",
+                "name": "MYSTIC CONTROLLERS",
                 "percent": 0.15,
                 "team": ["Loki", "BaronMordo", "Quake", "DoctorStrange", "ScarletWitch"]
             }
@@ -574,24 +579,24 @@
         "team": ["GhostRider", "ScarletWitch", "ElsaBloodstone", "BaronMordo", "DoctorStrange"],
         "hard": [
             {
-                "name": "",
+                "name": "AIM",
                 "percent": 0.15,
                 "team": ["ScientistSupreme", "AimTank_Taunt", "any", "Graviton", "AimDmg_Speed"]
             },
             {
-                "name": "",
+                "name": "FANSTASTIC4",
                 "percent": 0.15,
                 "team": ["Thing", "MrFantastic", "InvisibleWoman", "HumanTorch", "Namor"]
             },
             {
-                "name": "",
+                "name": "ULTRON",
                 "percent": 0.15,
                 "team": ["UltronDmg_Defense", "UltronDmg_Offense", "Ultron", "UltronDmg_Speed", "UltronSupport_Heal"]
             }
         ],
         "soft": [
             {
-                "name": "",
+                "name": "SPIDERVERSE",
                 "percent": 0.00,
                 "team": ["UltGreenGoblin", "Venom", "UltSpiderMan", "Carnage", "SpiderMan"]
             }
@@ -601,24 +606,24 @@
         "team": ["UltronDmg_Defense", "UltronDmg_Offense", "Ultron", "UltronDmg_Speed", "UltronSupport_Heal"],
         "hard": [
             {
-                "name": "",
+                "name": "POWER ARMOR",
                 "percent": 0.15,
                 "team": ["WarMachine", "Falcon", "IronMan", "Vision", "Rescue"]
             },
             {
-                "name": "",
+                "name": "X-MEN",
                 "percent": 0.10,
                 "team": ["Colossus", "Phoenix", "Psylocke", "Storm", "Wolverine"]
             }
         ],
         "soft": [
             {
-                "name": "",
+                "name": "AIM",
                 "percent": 0.00,
                 "team": ["ScientistSupreme", "AimTank_Taunt", "any", "Graviton", "AimDmg_Speed"]
             },
             {
-                "name": "",
+                "name": "BKT",
                 "percent": 0.00,
                 "team": ["Groot", "StarLord", "RocketRaccoon", "Thanos", "Minerva"]
             }
@@ -628,24 +633,24 @@
         "team": ["MBaku", "BlackPanther", "Shuri", "Killmonger", "Okoye"],
         "hard": [
             {
-                "name": "",
+                "name": "SUPERNATURAL",
                 "percent": 0.15,
                 "team": ["GhostRider", "ScarletWitch", "ElsaBloodstone", "BaronMordo", "DoctorStrange"]
             },
             {
-                "name": "",
+                "name": "FANTATIC4",
                 "percent": 0.30,
                 "team": ["Thing", "MrFantastic", "InvisibleWoman", "HumanTorch", "Namor"]
             },
             {
-                "name": "",
+                "name": "X-MEN",
                 "percent": 0.30,
                 "team": ["Colossus", "Phoenix", "Psylocke", "Storm", "Wolverine"]
             }
         ],
         "soft": [
             {
-                "name": "",
+                "name": "DEFENDERS",
                 "percent": 0.10,
                 "team": ["LukeCage", "Daredevil", "JessicaJones", "IronFist", "Punisher"]
             }
@@ -655,19 +660,19 @@
         "team": ["CaptainAmerica", "WarMachine", "CaptainMarvel", "IronMan", "WinterSoldier"],
         "hard": [
             {
-                "name": "",
+                "name": "POWER ARMOR",
                 "percent": 0.15,
                 "team": ["WarMachine", "Falcon", "IronMan", "Vision", "Rescue"]
             },
             {
-                "name": "",
+                "name": "BROTHERHOOD",
                 "percent": 0.15,
                 "team": ["Sabretooth", "Mystique", "Magneto", "Juggernaut", "Pyro"]
             }
         ],
         "soft": [
             {
-                "name": "",
+                "name": "SHIELD",
                 "percent": 0.15,
                 "team": ["ShieldTank_Stun", "ShieldDmg_Defense", "NickFury", "ShieldSupport_Heal", "ShieldDmg_AoE"]
             }
@@ -677,24 +682,24 @@
         "team": ["Colossus", "Phoenix", "Psylocke", "Storm", "Wolverine"],
         "hard": [
             {
-                "name": "",
+                "name": "AIM",
                 "percent": 0.00,
                 "team": ["ScientistSupreme", "AimTank_Taunt", "any", "Graviton", "AimDmg_Speed"]
             }
         ],
         "soft": [
             {
-                "name": "",
+                "name": "X-MEN",
                 "percent": 0.15,
                 "team": ["Colossus", "Phoenix", "Psylocke", "Storm", "Wolverine"]
             },
             {
-                "name": "",
+                "name": "BROTHERHOOD",
                 "percent": 0.10,
                 "team": ["Sabretooth", "Mystique", "Magneto", "Juggernaut", "Pyro"]
             },
             {
-                "name": "",
+                "name": "BKT",
                 "percent": 0.10,
                 "team": ["Groot", "StarLord", "RocketRaccoon", "Thanos", "Minerva"]
             }

@@ -77,7 +77,7 @@ class DetailedRaidService {
                 }
 
                 // Send the message
-                message.channel.send(detailedRaid).then(r => r.delete(60000));
+                message.channel.send(detailedRaid);
             }
         });
     }

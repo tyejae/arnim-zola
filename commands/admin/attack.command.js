@@ -8,7 +8,7 @@ const H1_RAID_CHANNEL_ID = '392075060166262798';
 const H2_RAID_CHANNEL_ID = '392075086481457169';
 const H1_WAR_CHANNEL_ID = '558004249196363777';
 const H2_WAR_CHANNEL_ID = '558004741582618624';
-const BOT_TEST_ARNIM_ZOLA_ID = '505840473282183169';
+const BOT_TEST_ARNIM_ZOLA_ID = '505840473282183169'
 const WAR_DISCUSSION_ID = '558004094153916416';
 const ALLOWED_CHANNELS_LIST = [ WAR_DISCUSSION_ID, BOT_TEST_ARNIM_ZOLA_ID, BOT_COMMANDS_CHANNEL_ID, H1_RAID_CHANNEL_ID, H2_RAID_CHANNEL_ID, H1_WAR_CHANNEL_ID, H2_WAR_CHANNEL_ID];
 
@@ -16,11 +16,12 @@ class CounterCmd extends Commando.Command {
     
     constructor(client) {
         super(client, {
-            name: 'counter',
-            memberName: 'counter',
+            name: 'attack',
+            memberName: 'attack',
             description: `
-                :black_small_square: Add/Remove/View counter to teams by using \`!counter <team text>\``,
-            group: 'admin'
+                :black_small_square: Add/Remove/View attack to teams by using \`!attack <team text>\``,
+            group: 'admin',
+            aliases: ['atk']
         });
     }
 
