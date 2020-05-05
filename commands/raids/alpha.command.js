@@ -33,4 +33,4 @@ class AlphaCommand extends Commando.Command {
         }
     }
 }
-// module.exports = AlphaCommand
+module.exports = AlphaCommand
