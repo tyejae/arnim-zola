@@ -54,7 +54,7 @@ class LaunchCmd extends Commando.Command {
                 break;
             case 'a':
                 description = `**S.T.R.I.K.E. Raid: ALPHA IV** has been launched with a goal of **${percent}%**
-                > All members must do a __minimum__ of 6 million damage. **NO EXCUSES**.
+                > All members must do a __minimum__ of 9 nodes. **NO EXCUSES**.
                 > Our goal is to **100%** *six times a week*
                 
                 **__PLEASE DOUBLE CHECK YOUR LANES BEFORE JOINING__**
