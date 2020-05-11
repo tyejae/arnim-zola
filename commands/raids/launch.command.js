@@ -45,9 +45,8 @@ class LaunchCmd extends Commando.Command {
             case 'u':
             case 'u7':
                 description = `**Ultimus VII** has been launched with a goal of **${percent}%**
-                > All members must do a __minimum__ of 15 million damage. 
+                > All members must do a __minimum__ of 20 million damage. 
                 > Second mini-boss must be defeated in every lane **minimum**.
-                > Please start attempting to cross the 60% threshold daily
                 
                 **__PLEASE DOUBLE CHECK YOUR LANES BEFORE JOINING__**
                 Assigned lanes and map can be found in #${mention.toLowerCase()}-lanes`;
