@@ -24,4 +24,4 @@ class DeadpoolCmd extends Commando.Command {
         MessageUtil.handleMessage(message, args, RAID);
     }
 }
-// module.exports = DeadpoolCmd
+module.exports = DeadpoolCmd
