@@ -71,6 +71,12 @@ client.on("guildMemberUpdate", function(oldMember, newMember){
             newMember.removeRole(newMember.roles.find(role => role.name === 'Missing Donation'));
             logReminder('Missing Donation');
         }
+    
+        if (roleNames.indexOf('Raid Damage Minimum') > -1) {
+            raidChannel.send(`<@${newMember.id}>, you are under **minimum** damage set for a raid. Please attack as soon as possible.`);
+            newMember.removeRole(newMember.roles.find(role => role.name === 'Raid Damage Minimum'));
+            logReminder('Raid Damage Minimum');
+        }
     }
 
     if (warChannel) {
