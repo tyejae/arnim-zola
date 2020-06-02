@@ -33,4 +33,4 @@ class GammaCmd extends Commando.Command {
         }
     }
 }
-// module.exports = GammaCmd
+module.exports = GammaCmd
