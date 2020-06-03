@@ -69,7 +69,7 @@ class LaunchCmd extends Commando.Command {
                 description = `**Ultimus VII Difficulty :one:** has been launched with a goal of **${percent}%**
                 > All members must **finish their lane**.
                 > All members must do a __minimum__ of ${min} million damage. 
-                > Please communicate with leaders if you're having trouble finishing your lane and we can send help in the future.
+                > Please communicate with leaders if you are having trouble finishing your lane and we can send help in the future.
                 
                 **__PLEASE DOUBLE CHECK YOUR LANES BEFORE JOINING__**
                 Assigned lanes and map can be found in #${mention.toLowerCase()}-lanes`;
@@ -85,7 +85,7 @@ class LaunchCmd extends Commando.Command {
                 description = `**Ultimus VII Difficulty :two:** has been launched with a goal of **${percent}%**
                 > All members must do a __minimum__ of ${min} million damage. 
                 > You must complete one node past the **second** miniboss in your lane *minimum*.
-                > Please communicate with leaders if you're having trouble finishing your lane and we can send help in the future.
+                > Please communicate with leaders if you are having trouble finishing your lane and we can send help in the future.
                 
                 **__PLEASE DOUBLE CHECK YOUR LANES BEFORE JOINING__**
                 Assigned lanes and map can be found in #${mention.toLowerCase()}-lanes`;
