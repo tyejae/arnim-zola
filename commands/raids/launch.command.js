@@ -41,10 +41,10 @@ class LaunchCmd extends Commando.Command {
         }
 
         let description;
+        let min = '20';
         switch (raid) {
             case 'u':
             case 'u7':
-                let min = '20';
                 switch(percent.trim()) {
                     case 70:
                     case '70': min = '17.5'; break;
@@ -59,7 +59,6 @@ class LaunchCmd extends Commando.Command {
                 Assigned lanes and map can be found in #${mention.toLowerCase()}-lanes`;
                 break;
             case 'd1':
-                let min = '10';
                 switch(percent.trim()) {
                     case 100:
                     case '70': min = '10'; break;
@@ -75,7 +74,6 @@ class LaunchCmd extends Commando.Command {
                 Assigned lanes and map can be found in #${mention.toLowerCase()}-lanes`;
                 break;
             case 'd2':
-                let min = '11';
                 switch(percent.trim()) {
                     case 100:
                     case '70': min = '11'; break;
