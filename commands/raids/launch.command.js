@@ -91,7 +91,7 @@ class LaunchCmd extends Commando.Command {
             case 'a':
                 description = `**S.T.R.I.K.E. Raid: ALPHA IV** has been launched with a goal of **${percent}%**
                 > All members must do a __minimum__ of 9 nodes. **NO EXCUSES**.
-                > Our goal is to **100%** *six times a week*
+                > Our goal is to **100%** *every day*
                 
                 **__PLEASE DOUBLE CHECK YOUR LANES BEFORE JOINING__**
                 Assigned lanes and map can be found in #${mention.toLowerCase()}-lanes`;
@@ -99,7 +99,7 @@ class LaunchCmd extends Commando.Command {
             case 'b':
                 description = `**S.T.R.I.K.E. Raid: BETA IV** has been launched with a goal of **${percent}%**
                 > All members must do a __minimum__ of 9 nodes. **NO EXCUSES**.
-                > Our goal is to **100%** *six times a week*
+                > Our goal is to **100%** *every day*
                 
                 **__PLEASE DOUBLE CHECK YOUR LANES BEFORE JOINING__**
                 Assigned lanes and map can be found in #${mention.toLowerCase()}-lanes`;
