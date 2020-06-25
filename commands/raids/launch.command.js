@@ -88,6 +88,22 @@ class LaunchCmd extends Commando.Command {
                 **__PLEASE DOUBLE CHECK YOUR LANES BEFORE JOINING__**
                 Assigned lanes and map can be found in #${mention.toLowerCase()}-lanes`;
                 break;
+            
+            case 'd3':
+                switch(percent.trim()) {
+                    case 100:
+                    case '70': min = '10'; break;
+                    case 60:
+                    case '60': min = '10'; break;
+                }
+                description = `**Ultimus VII Difficulty :three:** has been launched with a goal of **${percent}%**
+                > All members must do a __minimum__ of ${min} million damage. 
+                > You must complete one node past the **second** miniboss in your lane *minimum*.
+                > Please communicate with leaders if you are having trouble finishing your lane and we can send help in the future.
+                
+                **__PLEASE DOUBLE CHECK YOUR LANES BEFORE JOINING__**
+                Assigned lanes and map can be found in #${mention.toLowerCase()}-lanes`;
+                break;
             case 'a':
                 description = `**S.T.R.I.K.E. Raid: ALPHA IV** has been launched with a goal of **${percent}%**
                 > All members must do a __minimum__ of 9 nodes. **NO EXCUSES**.
