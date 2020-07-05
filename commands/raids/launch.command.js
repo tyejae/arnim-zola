@@ -92,9 +92,9 @@ class LaunchCmd extends Commando.Command {
             case 'd3':
                 switch(percent.trim()) {
                     case 100:
-                    case '70': min = '10'; break;
+                    case '70': min = '11'; break;
                     case 60:
-                    case '60': min = '10'; break;
+                    case '60': min = '11'; break;
                 }
                 description = `**Ultimus VII Difficulty :three:** has been launched with a goal of **${percent}%**
                 > All members must do a __minimum__ of ${min} million damage. 
