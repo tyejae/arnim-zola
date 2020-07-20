@@ -149,4 +149,4 @@ class LaunchCmd extends Commando.Command {
         message.delete(3000);
     }
 }
-module.exports = LaunchCmd;
+// module.exports = LaunchCmd;
