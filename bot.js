@@ -19,6 +19,7 @@ oldMember    GuildMember        The member before the update
 newMember    GuildMember        The member after the update    */
 client.on("guildMemberUpdate", function(oldMember, newMember){
     const roleNames = newMember.roles.map(role => role.name);
+    console.log(roleNames)
     let raidChannel;
     let warChannel;
     if (roleNames.indexOf('H2') > -1) {
