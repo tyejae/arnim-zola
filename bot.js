@@ -77,6 +77,12 @@ client.on("guildMemberUpdate", function(oldMember, newMember){
             newMember.removeRole(newMember.roles.find(role => role.name === 'Raid Damage Minimum'));
             logReminder('Raid Damage Minimum');
         }
+    
+        if (roleNames.indexOf('Raid Keys') > -1) {
+            raidChannel.send(`<@${newMember.id}>, Please spend energy to complete your daily 600 raid keys before you reset.`);
+            newMember.removeRole(newMember.roles.find(role => role.name === 'Raid Keys'));
+            logReminder('Raid Keys');
+        }
     }
 
     if (warChannel) {
